@@ -5,6 +5,7 @@ import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaLocationDot } from "react-icons/fa6";
 import Footerbg from "../../assets/images/home/footerbg.webp";
+import { Link } from "react-router-dom";
 // bg-[#00677f]
 const Footer = () => {
   return (
@@ -36,19 +37,28 @@ const Footer = () => {
                       <ul className="mt-2 font-medium text-black font-Barlow">
                         <li className="flex ">
                           <AiOutlineDoubleRight className="mt-1 mr-4 text-red-600" />
-                          <span className="">About us </span>
+                          <span className="">
+                            {" "}
+                            <Link to={"about-us"}>About us</Link>{" "}
+                          </span>
                         </li>
                         <li className="flex ">
                           <AiOutlineDoubleRight className="mt-1 mr-4 text-red-600" />
-                          <span>Services </span>
+                          <span>
+                            <Link to={"Home-interiories"}>Services</Link>{" "}
+                          </span>
                         </li>
                         <li className="flex ">
                           <AiOutlineDoubleRight className="mt-1 mr-4 text-red-600" />
-                          <span>Portfolio </span>
+                          <span>
+                            <Link to={"Gallary"}>GALLERY</Link>{" "}
+                          </span>
                         </li>
                         <li className="flex ">
                           <AiOutlineDoubleRight className="mt-1 mr-4 text-red-600" />
-                          <span>Contact Us </span>
+                          <span>
+                            <Link to={"Contact-us"}>Contact Us</Link>{" "}
+                          </span>
                         </li>
                       </ul>
                     </div>
@@ -65,27 +75,35 @@ const Footer = () => {
                         </li>
                         <li className="flex ">
                           <AiOutlineDoubleRight className="mt-1 mr-4 text-red-600" />
-                          <span> Commercial </span>
+                          <span>
+                            <Link to={"Commercial-interior"}>Commercial</Link>{" "}
+                          </span>
                         </li>
                         <li className="flex ">
                           <AiOutlineDoubleRight className="mt-1 mr-4 text-red-600" />
-                          <span>Corporate Interiors </span>
+                          <span>
+                            <Link to={"Corporate-interior"}>
+                              Corporate Interiors
+                            </Link>{" "}
+                          </span>
                         </li>
                         <li className="flex ">
                           <AiOutlineDoubleRight className="mt-1 mr-4 text-red-600" />
-                          <span> Full Home Furnishing</span>
+                          <span>
+                            <Link to={"Home-interiories"}>
+                              Full Home Furnishing
+                            </Link>{" "}
+                          </span>
                         </li>
-                        {/* <li className="flex ">
-                          <AiOutlineDoubleRight className="mt-1 mr-4 text-red-600" />
-                          <span>Privacy policy </span>
-                        </li> */}
                       </ul>
                     </div>
                   </div>
 
                   <div className="w-[25%] max-md:w-full">
                     <div>
-                      <h2 className="text-[23px]   text-black">Contact Us</h2>
+                      <h2 className="text-[23px]   text-black">
+                        <Link to={"Contact-us"}> Contact Us</Link>
+                      </h2>
 
                       <ul className="mt-2 font-medium text-black font-Barlow">
                         <li className="flex ">
@@ -122,7 +140,6 @@ const Footer = () => {
             Copyright © Inddo Interiors All rights reserved
           </p>
         </div>
-        
       </section>
       {/* ========================== */}
     </>

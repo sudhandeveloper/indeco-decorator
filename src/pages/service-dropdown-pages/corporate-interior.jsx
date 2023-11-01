@@ -26,10 +26,10 @@ const Corporate = () => {
           <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
           <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-            <h2 className="text-[38px] font-medium italic font-Barlow text-white ">
+            <h2 className="text-[38px] font-medium italic font-cormorant text-white ">
               Corporate Office Interior Designers in Chennai
             </h2>
-            <h2 className="text-[65px] font-semibold font-Barlow text-white ">
+            <h2 className="text-[65px] font-semibold font-cormorant text-white ">
               INDDECORE INTERIO
             </h2>
             <div className="w-20 h-[1px] bg-red-600"></div>
@@ -43,7 +43,7 @@ const Corporate = () => {
       {/* ========================== Best Residential Interior Designers in Chennai ============= */}
       <section>
         <div className="mt-10">
-          <h2 className="text-[38px] max-md:px-5 max-md:text-[25px] text-center text-red-600 font-medium italic font-Barlow ">
+          <h2 className="text-[38px] max-md:px-5 max-md:text-[25px] text-center text-red-600 font-medium italic font-cormorant ">
             Corporate Office Interior Designers in Chennai
           </h2>
 

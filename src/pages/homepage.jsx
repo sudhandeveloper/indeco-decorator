@@ -41,6 +41,7 @@ import { FaPaintBrush } from "react-icons/fa";
 import { FaGears } from "react-icons/fa6";
 import { AiFillHome } from "react-icons/ai";
 import { FaTruck } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Homepage = () => {
   const setingOne = {
     dots: true,
@@ -168,7 +169,7 @@ const Homepage = () => {
             <p className="font-cormantThiner max-sm:text-[32px] text-gray-700 text-[50px] text-center ">
               World-Class Luxury Interior Designer
             </p>
-            <p className="mt-5 text-center px-36 font-cormantThiner max-lg:px-14 max-md:px-10 max-sm:px-1">
+            <p className="mt-5 text-center text-[26px] px-36 font-cormantThiner max-lg:px-14 max-md:px-10 max-sm:px-1">
               Rae Duncan Interior Design is a full-service luxury international
               design firm specializing in both residential and commercial spaces
               with a focus on branded environments. We collaborate on every
@@ -208,20 +209,20 @@ const Homepage = () => {
               </div>
 
               <div className="w-[50%] max-lg:w-full  h-auto ">
-                <div className="h-[30%] text-center pt-5">
+                <div className="h-[25%] text-center pt-5">
                   <h1 className="text-center text-gray-500 font-bold uppercase text-[45px] font-cormantThiner ">
                     <span className="text-red-600"> Inddecore </span>Interio
                   </h1>
                 </div>
 
-                <div className="w-full h-[70%] px-16 py-16 max-sm:px-6 bg-white ">
+                <div className="w-full h-[75%] px-16 py-16 max-sm:px-6 bg-white ">
                   <h2 className="uppercase tracking-widest text-[22px] text-gray-500">
                     MEET KERALA'S BEST
                   </h2>
                   <p className="text-[32px] tracking-wider font-medium text-red-600">
                     INTERIOR DESIGNERS
                   </p>
-                  <p className="text-justify font-extrabold text-[16px] text-gray-800  font-cormantThiner">
+                  <p className="text-justify font-extrabold text-[18px] text-gray-800  font-cormantThiner">
                     stablished in the year 2018, THOMAR is a highly reputed
                     interior brand. It is supported by a powerful team of
                     architects, interior designers and supervisors etc. This
@@ -240,61 +241,70 @@ const Homepage = () => {
         {/* ========================= Services section ===================*/}
 
         <section>
-          <div className="flex gap-5 mt-20 px-11 max-md:px-6 max-lg:flex-col">
-            <div className="relative z-0 Baner-black-white">
-              <img
-                className="object-cover z-[1] w-auto h-[500px] rounded-xl"
-                src={ProcessImageTwo}
-                alt="loading"
-              />
-              <div className="absolute top-0 w-full h-full bg-black rounded-xl opacity-40"></div>
-              <div className="absolute bottom-0 px-10 pb-10">
-                <h2 className="font-cormantThiner text-[40px] font-semibold text-white">
-                  Residential Interiors
-                </h2>
-                <p className="text-white font-cormantThiner">
-                  Get the Best Residential Interior Designers in Chennai. Check
-                  Our Latest Works Here.
-                </p>
-              </div>
-            </div>
+          <div className="flex gap-5 mt-20 justify-evenly px-11 max-md:px-6 max-lg:flex-col">
+            <Link to={"Home-interiories"}>
+              {" "}
+              <div className="relative z-0 Baner-black-white">
+                <img
+                  className="object-cover z-[1] h-[500px] rounded-xl"
+                  src={ProcessImageTwo}
+                  alt="loading"
+                />
+                <div className="absolute top-0 w-full h-full bg-black rounded-xl opacity-40"></div>
+                <div className="absolute bottom-0 px-10 pb-10">
+                  <h2 className="font-cormantThiner text-[40px] font-semibold text-white">
+                    Residential Interiors
+                  </h2>
+                  <p className="text-white font-cormantThiner">
+                    Get the Best Residential Interior Designers in Chennai.
+                    Check Our Latest Works Here.
+                  </p>
+                </div>
+              </div>{" "}
+            </Link>
 
-            <div className="relative Baner-black-white">
-              <img
-                className="rounded-xl h-[500px] object-cover w-full"
-                src={ProcessImageThree}
-                alt="loading"
-              />
+            <Link to={"Corporate-interior"}>
+              {" "}
+              <div className="relative Baner-black-white">
+                <img
+                  className="rounded-xl h-[500px] object-cover w-full"
+                  src={ProcessImageThree}
+                  alt="loading"
+                />
 
-              <div className="absolute top-0 w-full h-full bg-black opacity-40 rounded-xl"></div>
-              <div className="absolute bottom-0 px-10 pb-10">
-                <h2 className="font-cormantThiner text-[40px] font-semibold text-white">
-                  Corporate Interiors
-                </h2>
-                <p className="text-white font-cormantThiner">
-                  Get the Best Residential Interior Designers in Chennai. Check
-                  Our Latest Works Here.
-                </p>
-              </div>
-            </div>
+                <div className="absolute top-0 w-full h-full bg-black opacity-40 rounded-xl"></div>
+                <div className="absolute bottom-0 px-10 pb-10">
+                  <h2 className="font-cormantThiner text-[40px] font-semibold text-white">
+                    Corporate Interiors
+                  </h2>
+                  <p className="text-white font-cormantThiner">
+                    Get the Best Residential Interior Designers in Chennai.
+                    Check Our Latest Works Here.
+                  </p>
+                </div>
+              </div>{" "}
+            </Link>
 
-            <div className="relative Baner-black-white">
-              <img
-                className="rounded-xl  h-[500px] object-cover w-full"
-                src={ProcessImageone}
-                alt="loading"
-              />
-              <div className="absolute top-0 w-full h-full bg-black rounded-xl opacity-40"></div>
-              <div className="absolute bottom-0 px-10 pb-10">
-                <h2 className="font-cormantThiner text-[40px] font-semibold text-white">
-                  Commercial Interiors
-                </h2>
-                <p className="text-white font-cormantThiner">
-                  Get the Best Residential Interior Designers in Chennai. Check
-                  Our Latest Works Here.
-                </p>
+            <Link to={"Commercial-interior"}>
+              {" "}
+              <div className="relative Baner-black-white">
+                <img
+                  className="rounded-xl  h-[500px] object-cover w-full"
+                  src={ProcessImageone}
+                  alt="loading"
+                />
+                <div className="absolute top-0 w-full h-full bg-black rounded-xl opacity-40"></div>
+                <div className="absolute bottom-0 px-10 pb-10">
+                  <h2 className="font-cormantThiner text-[40px] font-semibold text-white">
+                    Commercial Interiors
+                  </h2>
+                  <p className="text-white font-cormantThiner">
+                    Get the Best Residential Interior Designers in Chennai.
+                    Check Our Latest Works Here.
+                  </p>
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
         </section>
 

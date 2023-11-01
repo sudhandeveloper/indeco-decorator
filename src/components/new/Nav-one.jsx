@@ -19,20 +19,22 @@ const NavOne = () => {
           <div className="w-[100%]  justify-end  h-auto ">
             <ul className="flex justify-end gap-3 pr-10 sm:pb-2 max-sm:gap-0 max-sm:flex font-RobatoCondensed">
               <li className="pt-4 pl-2 max-sm:w-full max-sm:text-center">
-                +91 7558 999 111
+                <a href="tel:+917558999111"> +91 7558 999 111</a>
               </li>
               <li className="pt-5">
                 <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
               </li>
               <li className="pt-4 tracking-wider max-sm:text-center max-sm:w-[100%] max-sm:pb-3 ">
-                marketing@d2rinteriors.com
+                <a href="mailto:marketing@d2rinteriors.com">
+                  marketing@d2rinteriors.com
+                </a>
               </li>
               <li className="pt-5">
                 <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
               </li>
               <li className="mt-[10px] max-sm:hidden">
                 <button className="px-3 py-1 font-serif text-white bg-red-600 border-2 border-red-600 ">
-                  <span>Contact us</span>
+                  <span > <Link to={"Contact-us"}> Contact us</Link> </span>
                 </button>
               </li>
             </ul>

@@ -46,7 +46,7 @@ const Aboutus = () => {
 
               <div className="h-[1px] bg-black border-dotted w-[100%] mt-10"></div>
 
-              <p className="mt-10 font-extrabold text-justify text-black font-cormantThiner">
+              <p className="mt-10 text-[18px] font-extrabold text-justify text-black font-cormantThiner">
                 Diamond Interior was started in the year 20013, with a
                 consistent aim to offer solutions related to interiors desiner
                 for various purposes such as electrical, painting, furnishing
@@ -85,7 +85,7 @@ const Aboutus = () => {
               <h2 className="text-[50px] font-extralight font-cormantThiner">
                 Build your dream home
               </h2>
-              <p className="mt-2 font-extrabold text-justify text-black font-cormantThiner">
+              <p className="mt-2 font-extrabold text-[18px] text-justify text-black font-cormantThiner">
                 Our primary objective is to develop an imaginative answer for
                 building interiors that will be an ideal harmony among
                 aesthetics and functionality. Bizzoppo accentuates on
@@ -110,7 +110,7 @@ const Aboutus = () => {
               Get top professionals for you
             </h2>
             <div className="flex gap-10 font-extrabold text-justify text-black max-md:flex-col font-cormantThiner">
-              <p className="w-[50%] max-md:w-full">
+              <p className="w-[50%] text-[18px] max-md:w-full">
                 Our Interior designers group represents considerable authority
                 in making dynamic exceptional interiors for the elite group of
                 residences and business foundations. Our designing specialists
@@ -119,7 +119,7 @@ const Aboutus = () => {
                 or the present day. We at Bizzoppo are pleasured to convey rich
                 and inventive arrangements that straightforwardly connect to our
               </p>
-              <p className="w-[50%] max-md:w-full ">
+              <p className="w-[50%] text-[18px] max-md:w-full ">
                 customer’s needs. Each venture begins with an idea and each idea
                 is made from an exceptionally close to home association with our
                 customers. We at Bizzoppo give first preference to our
@@ -219,11 +219,7 @@ const Aboutus = () => {
                     <AiOutlineInstagram className="text-[25px]" />
                   </center>
                 </li>
-                <li className="w-10 h-10 pt-[8px] bg-red-500 text-white rounded-full">
-                  <center>
-                    <BiLogoFacebook className="text-[25px]" />
-                  </center>
-                </li>
+            
               </ul>
             </div>
           </div>

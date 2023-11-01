@@ -16,7 +16,7 @@ const GallariesCompo = props => {
               <h2 className="text-white font-cormantThiner font-extrabold text-[35px]">
                 {props.heading}
               </h2>
-              <div className="w-20 h-1 mb-2 bg-red-600"></div>
+
             </div>
           </div>
         </div>

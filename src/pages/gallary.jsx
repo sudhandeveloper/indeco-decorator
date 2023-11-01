@@ -34,10 +34,10 @@ const Gallary = () => {
             <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
             <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-              <h2 className="text-[38px] font-medium italic font-Barlow text-white ">
+              <h2 className="text-[38px] font-medium italic font-cormorant text-white ">
                 Interior Designers GALLARY
               </h2>
-              <h2 className="text-[65px] font-semibold font-Barlow text-white ">
+              <h2 className="text-[65px] font-semibold font-cormorant text-white ">
                 INDDECORE INTERIO
               </h2>
               <div className="w-20 h-[1px] bg-red-600"></div>
