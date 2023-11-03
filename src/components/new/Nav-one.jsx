@@ -25,8 +25,8 @@ const NavOne = () => {
                 <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
               </li>
               <li className="pt-4 tracking-wider max-sm:text-center max-sm:w-[100%] max-sm:pb-3 ">
-                <a href="mailto:marketing@d2rinteriors.com">
-                  marketing@d2rinteriors.com
+                <a href="mailto:info.idinterio@gmail.com">
+                info.idinterio@gmail.com 
                 </a>
               </li>
               <li className="pt-5">

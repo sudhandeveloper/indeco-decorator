@@ -1,4 +1,5 @@
 import { BsArrowRight } from "react-icons/bs";
+import { Helmet } from "react-helmet";
 
 import BannerimageOne from "../assets/images/home/Bannerimages/Imageone.jpg";
 import BannerimageTwo from "../assets/images/home/Bannerimages/ImageTwo.jpg";
@@ -42,6 +43,7 @@ import { FaGears } from "react-icons/fa6";
 import { AiFillHome } from "react-icons/ai";
 import { FaTruck } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
 const Homepage = () => {
   const setingOne = {
     dots: true,
@@ -106,6 +108,18 @@ const Homepage = () => {
   }
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Using Inddecore Interior to Create Kerala's Greatest Interiors
+        </title>
+        <meta
+          name="description"
+          content="Discover the art of interior design with Inddecore Interior, your one-stop destination for the best interiors in kerala. We transform your space into a haven of elegance and functionality. Explore our portfolio today!"
+        />
+        <link rel="canonical" href="https://inddecoreinteriors.com/home" />
+      </Helmet>
+
       <section>
         <section>
           <div className="mb-20 bg-white">

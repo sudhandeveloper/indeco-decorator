@@ -7,7 +7,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import Footerbg from "../../assets/images/home/footerbg.webp";
 import { Link } from "react-router-dom";
 import ScrollComponent from "../../components/move-to-top";
-import { RiArrowDropUpLine } from "react-icons/ri";
+// import { RiArrowDropUpLine } from "react-icons/ri";
 // bg-[#00677f]
 const Footer = () => {
   return (
@@ -114,13 +114,21 @@ const Footer = () => {
                         </li>
                         <li className="flex ">
                           <BiLogoGmail className="mt-1 mr-4 text-red-600" />
-                          <span>sales@perilinteriors.com </span>
+                          <span>info.idinterio@gmail.com </span>
+                          <span>rubtech.interiors@gmail.com</span>
                         </li>
                         <li className="flex ">
                           <FaLocationDot className="mt-1 text-[25px] mr-4 text-red-600" />
                           <span className="text-justify">
-                            Medavakkam Branch: No 1/12, Jalladianpet, Ricemill
-                            Road, Medavakkam, Chennai - 600100.{" "}
+                            Inddecore Interio Opposite – Apollo Tyres Perambra –
+                            Chalakudi – Thrissur 680689
+                          </span>
+                        </li>
+                        <li className="flex ">
+                          <FaLocationDot className="mt-1 text-[25px] mr-4 text-red-600" />
+                          <span className="text-justify">
+                            Inddeore Interio (Branch) Near Roman Catholic
+                            Church Viyyur-Thrissur 680010
                           </span>
                         </li>
                       </ul>
@@ -143,7 +151,6 @@ const Footer = () => {
           </p>
         </div>
         <ScrollComponent />
-     
       </section>
       {/* ========================== */}
     </>
