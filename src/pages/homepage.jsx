@@ -81,7 +81,7 @@ const Homepage = () => {
   function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
-      <div className="absolute  flex h-auto pt-1 top-[18.4rem] max-md:top-5 -left-7 max-sm:left-0">
+      <div className="absolute z-40  flex h-auto pt-1 top-[18.4rem] max-md:top-5 -left-7 max-sm:left-0">
         <button onClick={onClick}>
           <h2 className="">
             <MdArrowBackIosNew className="text-black text-[30px]" />
@@ -106,6 +106,7 @@ const Homepage = () => {
       </div>
     );
   }
+  
   return (
     <>
       <Helmet>
