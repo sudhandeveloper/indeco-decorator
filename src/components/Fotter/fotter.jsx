@@ -6,6 +6,8 @@ import { BiLogoGmail } from "react-icons/bi";
 import { FaLocationDot } from "react-icons/fa6";
 import Footerbg from "../../assets/images/home/footerbg.webp";
 import { Link } from "react-router-dom";
+import ScrollComponent from "../../components/move-to-top";
+import { RiArrowDropUpLine } from "react-icons/ri";
 // bg-[#00677f]
 const Footer = () => {
   return (
@@ -140,6 +142,8 @@ const Footer = () => {
             Copyright © Inddo Interiors All rights reserved
           </p>
         </div>
+        <ScrollComponent />
+     
       </section>
       {/* ========================== */}
     </>
