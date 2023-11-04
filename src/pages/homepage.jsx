@@ -81,7 +81,7 @@ const Homepage = () => {
   function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
-      <div className="absolute z-40  flex h-auto pt-1 top-[18.4rem] max-md:top-5 -left-7 max-sm:left-0">
+      <div className="absolute z-40  flex h-auto pt-1 top-[13rem] max-md:top-5 left-7 max-sm:left-0">
         <button onClick={onClick}>
           <h2 className="">
             <MdArrowBackIosNew className="text-black text-[30px]" />
@@ -95,7 +95,7 @@ const Homepage = () => {
     const { style, onClick } = props;
     return (
       <div
-        className="absolute  max-md:top-5 flex h-auto pt-1 top-[18.4rem]   max-md:left-10 -right-7"
+        className="absolute  max-md:top-5 flex h-auto pt-1 top-[14rem]   max-md:left-10 right-7"
         style={{ ...style }}
       >
         <button onClick={onClick}>
@@ -106,7 +106,7 @@ const Homepage = () => {
       </div>
     );
   }
-  
+
   return (
     <>
       <Helmet>
@@ -182,14 +182,16 @@ const Homepage = () => {
         <section>
           <div className="px-16 mb-10 max-sm:px-4">
             <p className="font-cormantThiner max-sm:text-[32px] text-gray-700 text-[50px] text-center ">
-              World-Class Luxury Interior Designer
+              <h2> Crafting the Best Interiors in kerala </h2>
             </p>
             <p className="mt-5 text-center text-[26px] px-36 font-cormantThiner max-lg:px-14 max-md:px-10 max-sm:px-1">
-              Rae Duncan Interior Design is a full-service luxury international
-              design firm specializing in both residential and commercial spaces
-              with a focus on branded environments. We collaborate on every
-              project to elevate raw concepts and ideas into unique spaces that
-              are both thoughtful and exquisite.
+              <h3>
+                At Inddecore Interior, we are dedicated to redefining interior
+                spaces, making them more functional, beautiful, and reflective
+                of your unique style. With a commitment to excellence and a team
+                of passionate designers, we have earned a reputation as the best
+                in kerala.
+              </h3>
             </p>
             <center>
               <div className="lg:w-[20%] md:w-[40%] max-md:w-[40%]  bg-red-600  mt-10 flex justify-evenly text-[20px] pt-2 pb-2">
@@ -232,10 +234,10 @@ const Homepage = () => {
 
                 <div className="w-full h-[75%] px-16 py-16 max-sm:px-6 bg-white ">
                   <h2 className="uppercase tracking-widest text-[22px] text-gray-500">
-                    MEET KERALA'S BEST
+                    MEET INDDECORE INTERIOR
                   </h2>
-                  <p className="text-[32px] tracking-wider font-medium text-red-600">
-                    INTERIOR DESIGNERS
+                  <p className="text-[26px] tracking-wider font-medium text-red-600">
+                    TALENTED DESIGNERS WITH US
                   </p>
                   <p className="text-justify font-extrabold text-[18px] text-gray-800  font-cormantThiner">
                     stablished in the year 2018, THOMAR is a highly reputed
@@ -339,17 +341,18 @@ const Homepage = () => {
               </ul>
 
               <h2 className="text-[35px] uppercase font-extrabold font-cormantThiner ">
-                Your <span className="text-red-600">Dream Home Awaits </span> .
-                Let's Design It Together.
+                PROVIDE COMFORT TO THE AREA RATHER THAN JUST FURNISHING IT
               </h2>
               <p className="mt-5 text-justify text-[18px] text-black font-extrabold font-cormantThiner">
-                With over 19 years of industry experience, Peril Interior
-                Designer has built a solid reputation for excellence. Our team
-                of certified interior designers possesses the necessary
-                qualifications and skills to transform your space. Their
-                expertise, combined with their passion for design, allows them
-                to create functional and visually stunning interiors that align
-                with your lifestyle and preferences.
+                With a wealth of experience in the field, our experts bring
+                unparalleled expertise to each project. We acknowledge that
+                every client has particular requirements and preferences. We
+                acknowledge that every client has particular requirements and
+                preferences. Our bespoke interior design solutions are tailored
+                to ensure your space reflects your personality and lifestyle. We
+                use only the finest materials and collaborate with skilled
+                artisans to deliver the highest quality workmanship in every
+                project.
               </p>
               <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly">
                 <button className="text-white uppercase font-cormantThiner">
@@ -565,9 +568,8 @@ const Homepage = () => {
           <div className="px-16 py-10 mt-10 max-sm:px-6 max-sm:mt-0 ">
             <div>
               <p className="font-cormantThiner  text-black font-extrabold text-[35px] text-center max-md:text-[30px]">
-                An <span className="text-red-600"> Inddecore </span> interior is
-                characterized by its distinction, unparalleled attention to
-                detail, and luxury that you can indulge in daily.
+                Design dreams made into reality and Design with passion. Your
+                personality, with our Inddecore interior expertise.
               </p>
               <center>
                 <div className="lg:w-[24%] max-sm:w-full md:w-[40%] max-md:w-[40%]  bg-red-600  mt-10 flex justify-evenly text-[20px] pt-2 pb-2">
@@ -596,15 +598,18 @@ const Homepage = () => {
               </ul>
 
               <h2 className="text-[42px] font-extrabold font-cormantThiner ">
-                Our Achievements
+                Achieving the Best Interiors in Kerala
               </h2>
               <p className="mt-5 text-justify text-black font-extrabold text-[18px] font-cormantThiner">
-                We keep promises and deliver on-time as per commitments. Every
-                project we undertake is unique and we bring holistic
-                satisfaction to our esteemed clients. Our maximum is to create
-                captivating interior design experiences for home and workplace
-                that are unique, elegant, made of superior quality and full of
-                luxury.
+                Inddecore Interior has been honored with prestigious awards for
+                our exceptional interior design work. Our commitment to
+                innovative, high-quality designs has earned us the respect of
+                both clients and industry peers. We specialize in creating
+                bespoke interior solutions that cater to the unique tastes and
+                needs of our clients. Our remarkable achievements are a
+                testament to our dedication to delivering personalized and
+                exceptional designs. At Inddecore Interior, we believe that
+                quality is paramount.
               </p>
               <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly">
                 <button className="text-white uppercase font-cormantThiner">
@@ -679,7 +684,7 @@ const Homepage = () => {
                         <div className="px-5 pt-28 max-sm:px-0 max-md:pt-20">
                           <p className="font-cormantThiner">21-9-2023</p>
                           <p className="font-semibold font-cormantThiner text-[25px]">
-                            Danial
+                            Arun
                           </p>
 
                           <ul className="flex justify-center ">
@@ -708,16 +713,11 @@ const Homepage = () => {
                           <BiSolidQuoteLeft className="text-[102px] text-[#c7993d]" />
                         </p>
                         <p className="text-[18px] max-md:text-[20px] text-black font-cormantThiner text-justify">
-                          Indo decor is a luxury interior designer who’s
-                          passionate about creating environments that reflect
-                          the unique personalities of her clients. She founded
-                          RDID to bring her bold, eclectic tastes and a high
-                          level of sophistication to Chicago interior design’s
-                          luxury residential and commercial markets. An adept
-                          curator of branded environments, Rae specializes in
-                          ensuring RDID’s commercial design work is flawlessly
-                          integrated and reflects the branding and culture of
-                          her clients.
+                          1. " Thanks to Inddecore Interior, my house became the
+                          home of my dreams. Their attention to detail and
+                          innovative design ideas are truly remarkable. From the
+                          initial consultation to the final execution, the
+                          entire process was smooth and stress-free”.
                         </p>
                       </div>
                     </li>
@@ -729,7 +729,7 @@ const Homepage = () => {
                     <li>
                       <div className="w-auto h-auto">
                         <div className="px-5 pt-28 max-sm:px-0 max-md:pt-20">
-                          <p className="font-cormantThiner">21-9-2023</p>
+                          <p className="font-cormantThiner">10-10-2023</p>
                           <p className="font-semibold font-cormantThiner text-[25px]">
                             Danial
                           </p>
@@ -760,16 +760,60 @@ const Homepage = () => {
                           <BiSolidQuoteLeft className="text-[102px] text-[#c7993d]" />
                         </p>
                         <p className="text-[18px] max-md:text-[20px] text-black font-cormantThiner text-justify">
-                          Indo decor is a luxury interior designer who’s
-                          passionate about creating environments that reflect
-                          the unique personalities of her clients. She founded
-                          RDID to bring her bold, eclectic tastes and a high
-                          level of sophistication to Chicago interior design’s
-                          luxury residential and commercial markets. An adept
-                          curator of branded environments, Rae specializes in
-                          ensuring RDID’s commercial design work is flawlessly
-                          integrated and reflects the branding and culture of
-                          her clients.
+                          2. " It was a pleasure working with Inddecore Interior
+                          on my workspace, and I'm really pleased with the
+                          outcome. I was astonished by the team's exceptional
+                          originality and professionalism. They succeeded in
+                          creating the ideal harmony between practicality and
+                          beauty."
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </center>
+
+                <center className="px-7">
+                  <ul className="flex w-[80%] max-md:w-full gap-5 shadow-xl pb-10 pt-10 shadow-gray-500 max-sm:shadow-lg max-lg:flex-col mb-10 mt-20 justify-evenly ">
+                    <li>
+                      <div className="w-auto h-auto">
+                        <div className="px-5 pt-28 max-sm:px-0 max-md:pt-20">
+                          <p className="font-cormantThiner">10-10-2023</p>
+                          <p className="font-semibold font-cormantThiner text-[25px]">
+                            Danial
+                          </p>
+
+                          <ul className="flex justify-center ">
+                            <li>
+                              <AiFillStar className="text-[#daa844] text-[30px]" />
+                            </li>
+                            <li>
+                              <AiFillStar className="text-[#daa844] text-[30px]" />
+                            </li>
+                            <li>
+                              <AiFillStar className="text-[#daa844] text-[30px]" />
+                            </li>
+                            <li>
+                              <AiFillStar className="text-[#daa844] text-[30px]" />
+                            </li>
+                            <li>
+                              <AiFillStar className="text-[#daa844] text-[30px]" />
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="w-[70%] pr-20 max-lg:px-10 max-lg:w-full">
+                      <div className="w-[100%]">
+                        <p>
+                          <BiSolidQuoteLeft className="text-[102px] text-[#c7993d]" />
+                        </p>
+                        <p className="text-[18px] max-md:text-[20px] text-black font-cormantThiner text-justify">
+                          3. "Inddecore Interior's commitment to quality is
+                          outstanding. They transformed my retail space into an
+                          inviting and visually stunning environment. I was
+                          impressed by their ability to capture the essence of
+                          my brand while ensuring a great shopping experience
+                          for customers."
                         </p>
                       </div>
                     </li>
@@ -779,8 +823,6 @@ const Homepage = () => {
             </div>
           </div>
         </section>
-        {/* ===================================== */}
-        {/* <Map /> */}
 
         {/* ======================================== */}
         <section>
@@ -806,13 +848,13 @@ const Homepage = () => {
                     <p className="pr-5 mt-1">
                       <BsFillTelephoneFill />
                     </p>
-                    <span> +91 9744775778</span>
+                    <span>+91 96334 61561</span>
                   </li>
                   <li className="flex ">
                     <p>
                       <BiLogoGmail className="mt-1 mr-5" />
                     </p>
-                    <span>contact@thomarinteriors.com</span>
+                    <span>info.idinterio@gmail.com</span>
                   </li>
                 </ul>
               </div>

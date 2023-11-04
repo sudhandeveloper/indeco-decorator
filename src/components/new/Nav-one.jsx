@@ -19,7 +19,7 @@ const NavOne = () => {
           <div className="w-[100%]  justify-end  h-auto ">
             <ul className="flex justify-end gap-3 pr-10 sm:pb-2 max-sm:gap-0 max-sm:flex font-RobatoCondensed">
               <li className="pt-4 pl-2 max-sm:w-full max-sm:text-center">
-                <a href="tel:+917558999111"> +91 7558 999 111</a>
+                <a href="tel:+919633461561">+91 96334 61561</a>
               </li>
               <li className="pt-5">
                 <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>

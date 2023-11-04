@@ -25,8 +25,9 @@ const Footer = () => {
                       alt="loading"
                     />
                     <p className="mt-5 text-justify text-black font-Barlow">
-                      The Royal Interior give most important for satisfying our
-                      client needs they are what need to think us
+                      At Inddecore Interior, we are dedicated to redefining
+                      interior spaces, making them more functional, beautiful,
+                      and reflective of your unique style.
                     </p>
                   </div>
 
@@ -115,7 +116,6 @@ const Footer = () => {
                         <li className="flex ">
                           <BiLogoGmail className="mt-1 mr-4 text-red-600" />
                           <span>info.idinterio@gmail.com </span>
-                          <span>rubtech.interiors@gmail.com</span>
                         </li>
                         <li className="flex ">
                           <FaLocationDot className="mt-1 text-[25px] mr-4 text-red-600" />
@@ -127,8 +127,8 @@ const Footer = () => {
                         <li className="flex ">
                           <FaLocationDot className="mt-1 text-[25px] mr-4 text-red-600" />
                           <span className="text-justify">
-                            Inddeore Interio (Branch) Near Roman Catholic
-                            Church Viyyur-Thrissur 680010
+                            Inddeore Interio (Branch) Near Roman Catholic Church
+                            Viyyur-Thrissur 680010
                           </span>
                         </li>
                       </ul>

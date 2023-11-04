@@ -14,9 +14,23 @@ import { BsEmojiSmile } from "react-icons/bs";
 import { BiLogoFacebook } from "react-icons/bi";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
+
+import { Helmet } from "react-helmet";
 const Aboutus = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Inddecore Interior is your Leading Interior Designers in Kerala
+        </title>
+        <meta
+          name="description"
+          content="Inddecore Interior is a premier interior design firm based in Kerala, specializing in creating stunning and functional spaces. With a team of talented designers, we transform your vision into reality, delivering exceptional results."
+        />
+        <link rel="canonical" href="https://inddecoreinteriors.com/about-us" />
+      </Helmet>
+
       <section className="">
         <div className="relative w-full h-auto ">
           <img
@@ -46,18 +60,14 @@ const Aboutus = () => {
 
               <div className="h-[1px] bg-black border-dotted w-[100%] mt-10"></div>
 
-              <p className="mt-10 text-[18px] font-extrabold text-justify text-black font-cormantThiner">
-                Diamond Interior was started in the year 20013, with a
-                consistent aim to offer solutions related to interiors desiner
-                for various purposes such as electrical, painting, furnishing
-                and others. We are operating our entire business activities with
-                our offices based in Delhi (India). Our company is a reliable
-                and well-known service provider for services like Interior
-                Designing Service, Modular Kitchen Designing, False Ceiling
-                Service, Office Partition Designing, Painting Service and many
-                more. Served to our valued clients with a commitment to keep all
-                quality parameters as the major concern, our provided services
-                can be availed at most competitive rates.
+              <p className="mt-10 text-[22px] font-extrabold text-justify text-black font-cormantThiner">
+                stablished in the year 2018, THOMAR is a highly reputed interior
+                brand. It is supported by a powerful team of architects,
+                interior designers and supervisors etc. This widely acclaimed
+                brand, which offers turnkey interior solutions, is known for its
+                exceptional research and development wing. It handles both
+                residential and commercial projects. It maintains international
+                standards in design, material, as well as execution..
               </p>
             </div>
             <div className="w-[60%] Baner-black-white max-md:w-full h-[100%] pt-16 p-5 bg-gray-200 pb-28">
@@ -81,17 +91,21 @@ const Aboutus = () => {
               />
             </div>
             <div className="w-[59%] max-md:w-full p-5 bg-gray-100">
-              <h2 className="mb-3 italic font-cormantThiner">We can help you to</h2>
+              <h2 className="mb-3 italic font-cormantThiner">
+                We can help you to
+              </h2>
               <h2 className="text-[50px] font-extralight font-cormantThiner">
-                Build your dream home
+                CONSTRUCTING YOUR IDEAL HOME
               </h2>
               <p className="mt-2 font-extrabold text-[18px] text-justify text-black font-cormantThiner">
-                Our primary objective is to develop an imaginative answer for
-                building interiors that will be an ideal harmony among
-                aesthetics and functionality. Bizzoppo accentuates on
-                administration straightforwardness and deliberate planning of
-                all exercises to guarantee the fruitful fulfillment of all
-                interior design ventures surpassing customer’s desires.
+                At Inddecore Interior, we're more than just builders, we're
+                dream weavers. Our team is committed to crafting homes that
+                embody your unique style and needs. Learn about our mission,
+                values, and the passionate professionals who make it all happen.
+                Learn about the transformational potential of our interior
+                design offerings. From choosing the perfect color palette to
+                furniture selection, we take care of every detail to create the
+                ambiance you desire.
               </p>
 
               <button className="w-auto h-auto py-2 mt-5 bg-red-600 px-7">
@@ -219,7 +233,6 @@ const Aboutus = () => {
                     <AiOutlineInstagram className="text-[25px]" />
                   </center>
                 </li>
-            
               </ul>
             </div>
           </div>
