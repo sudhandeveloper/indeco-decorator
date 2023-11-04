@@ -124,7 +124,7 @@ const Blog = () => {
 
               <div className="px-6 py-5 shadow-lg font-cormantThiner rounded-2xl shadow-gray-500">
                 <h2 className="mb-2 mt-10 font-cormorant font-extrabold text-[40px] text-green-700">
-                  Living Space Interiors are where your Comfort Meets Elegance
+                Master Bedroom Interiors is a Personal Haven
                 </h2>
                 <h2 className=" font-extrabold text-[25px]">
                   Your master bedroom should be a reflection of your personal
