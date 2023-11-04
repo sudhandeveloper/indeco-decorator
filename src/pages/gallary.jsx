@@ -18,10 +18,22 @@ import GallaeyImageFourtheen from "../assets/images/gallary/17-min.jpg";
 import GallaeyImageSixteen from "../assets/images/gallary/18-min.jpg";
 import GallaeyImageSeventeen from "../assets/images/gallary/19-min.jpg";
 import GallaeyImageEighteen from "../assets/images/gallary/20-min.jpg";
-
+import { Helmet } from "react-helmet";
 const Gallary = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Discover Our Gallery with an Exhibition of Exquisite Design
+        </title>
+        <meta
+          name="description"
+          content="Step into the world of Inddecore Interior through our gallery page. View our portfolio of remarkable interior designs and construction projects, each a testament to our creativity and craftsmanship"
+        />
+        <link rel="canonical" href="https://inddecoreinteriors.com/gallery" />
+      </Helmet>
+
       <section>
         <section>
           <div className="relative h-96 max-md:h-[500px]">
@@ -35,7 +47,7 @@ const Gallary = () => {
 
             <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
               <h2 className="text-[38px] font-medium italic font-cormorant text-white ">
-                Interior Designers GALLARY
+            EXPLORE OUR GALLERY AND LET THE IMAGES SPEAK FOR THEMSELVES.
               </h2>
               <h2 className="text-[65px] font-semibold font-cormorant text-white ">
                 INDDECORE INTERIO
@@ -55,7 +67,9 @@ const Gallary = () => {
               PERSONAL TOUCH BY{}
               <span className="text-red-600">INDDECORE INTERIO </span>
             </h2>
-            <center><div className="w-40 h-1 mt-3 mb-3 bg-red-600 rounded-full"></div></center>
+            <center>
+              <div className="w-40 h-1 mt-3 mb-3 bg-red-600 rounded-full"></div>
+            </center>
           </div>
         </section>
 

@@ -1,12 +1,24 @@
 import React from "react";
 import ContactUs from "../assets/images/Contact-us/image-four.jpg";
 import { BsArrowRight } from "react-icons/bs";
-import { BiLogoFacebook } from "react-icons/bi";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
+import Contacts from "../components/email";
+import { Helmet } from "react-helmet";
 const Contact = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Your Dream Project Starts Here</title>
+        <meta
+          name="description"
+          content="Have any inquiries, suggestions, or dreams to share? We're all ears! Contact Inddecore Interior today and let's embark on the journey to bring your vision to life."
+        />
+        <link
+          rel="canonical"
+          href="https://inddecoreinteriors.com/contact-us"
+        />
+      </Helmet>
+
       <section>
         <div className="relative h-96 max-md:h-[500px]">
           <img
@@ -28,14 +40,14 @@ const Contact = () => {
                   Hours : All Days - 10am to 9pm
                 </li>
                 <li className="text-[25px] text-white font-cormantThiner">
-                  Call: +91 866 722 3919
+                  Call: +91 96334 61561
                 </li>
                 <li className="text-[25px] text-white font-cormantThiner">
                   Book a free consultation with one of our Expert designers!
                 </li>
                 <li className="text-[20px] ">
                   <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-red-600 font-cormantThiner">
-                    Call Us
+                    <a href="tel:+919633461561">Call Us </a>
                   </button>
                 </li>
               </ul>
@@ -61,12 +73,15 @@ const Contact = () => {
                 Our Achievements
               </h2>
               <p className="mt-5 text-justify text-[18px] font-semibold text-black font-cormantThiner">
-                We keep promises and deliver on-time as per commitments. Every
-                project we undertake is unique and we bring holistic
-                satisfaction to our esteemed clients. Our maximum is to create
-                captivating interior design experiences for home and workplace
-                that are unique, elegant, made of superior quality and full of
-                luxury.
+                Inddecore Interior has been honored with prestigious awards for
+                our exceptional interior design work. Our commitment to
+                innovative, high-quality designs has earned us the respect of
+                both clients and industry peers. We specialize in creating
+                bespoke interior solutions that cater to the unique tastes and
+                needs of our clients. Our remarkable achievements are a
+                testament to our dedication to delivering personalized and
+                exceptional designs. At Inddecore Interior, we believe that
+                quality is paramount.
               </p>
               <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly">
                 <button className="text-white uppercase font-cormantThiner">
@@ -97,8 +112,8 @@ const Contact = () => {
                 <li>
                   <div>
                     <h2 className="text-[50px] max-sm:text-[30px] font-semibold flex">
-                      <span>69</span>{" "}
-                      <span className="text-red-600 text-[25px] ml-3">+</span>{" "}
+                      <span>69</span>
+                      <span className="text-red-600 text-[25px] ml-3">+</span>
                     </h2>
                     <h2 className="font-semibold text-red-600">
                       On Going Projects
@@ -125,82 +140,8 @@ const Contact = () => {
         </section>
 
         {/* =============== Contact-us =================== */}
-        
-        <section>
-          <div className="flex max-lg:flex-col  px-16 max-md:px-6 bg-[#28282B] py-10">
-            <div className="w-[50%] max-lg:w-full max-md:text-center items-center  max-md:mb-10">
-              <h2 className="uppercase  text-[24px] text-red-500 italic">
-                Contact Now
-              </h2>
-              <h2 className="mt-5 text-[30px] max-md:text-[30px] text-white font-semibold">
-                For Any Inquiries Please Call
-              </h2>
-              <h2 className="mt-4 text-[25px] text-red-500">
-                +91 866 722 3919
-              </h2>
-
-              <div className="w-48 h-[2px] mt-5 max-lg:w-full bg-white rounded-full"></div>
-
-              <div className="w-full mt-10 max-sm:px-10">
-                <ul className="flex w-full gap-5 max-sm:justify-between">
-                  <li className="w-10 h-10 pt-[8px]  bg-red-500 rounded-full">
-                    <center>
-                      <BiLogoFacebook className="text-[25px] text-white" />
-                    </center>
-                  </li>
-                  <li className="w-10 h-10 pt-[8px]  bg-red-500 text-white rounded-full">
-                    <center>
-                      <AiOutlineTwitter className="text-[25px]" />
-                    </center>
-                  </li>
-                  <li className="w-10 h-10 pt-[8px] bg-red-500 text-white rounded-full">
-                    <center>
-                      <AiOutlineInstagram className="text-[25px]" />
-                    </center>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            {/* ============= */}
-            <div className="p-5 w-[60%] max-lg:w-full max-lg:mt-10">
-              <h2 className="text-center text-[25px] mb-5  italic text-red-600">
-                Contact Form
-              </h2>
-              <form
-                action="
-                "
-              >
-                <input
-                  type="text"
-                  className=" w-[100%] py-2 pl-2"
-                  placeholder="Name"
-                />
-                <input
-                  type="text"
-                  className="mt-5 w-[100%] py-2 pl-2 mb-5"
-                  placeholder="Gmail.com"
-                />
-                <div>
-                  <h2 className="mb-2 mt-5 text-white font-RobatoCondesed text-[18px] tracking-wider">
-                    Message
-                  </h2>
-                  <textarea
-                    name="message"
-                    id="message"
-                    cols="30"
-                    placeholder="Message Here"
-                    rows="5"
-                    className="pt-3 pl-3 w-full border-[1px] border-gray-600 "
-                  ></textarea>
-                  <button className="w-auto px-5 py-1 mt-5 font-medium text-white uppercase bg-red-600 font-cormantThiner">
-                    Submite
-                  </button>
-                </div>{" "}
-              </form>
-            </div>
-            <div></div>
-          </div>
-        </section>
+<Contacts/>
+    
       </section>
     </>
   );

@@ -11,10 +11,26 @@ import OfficeWallDesigns from "../../assets/images/Services-images/corporate-int
 import LightsArrangement from "../../assets/images/Services-images/corporate-interior-image/Ligets-arrangements.jpg";
 import ReceptionArea from "../../assets/images/Services-images/corporate-interior-image/Reception-area.jpg";
 import CafeteriaArea from "../../assets/images/Services-images/corporate-interior-image/Cafeteria.jpg";
-
+import { Helmet } from "react-helmet";
 const Corporate = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Kerala-based Inddecore Interior designs interiors for corporate
+          offices
+        </title>
+        <meta
+          name="description"
+          content="Inddecore Interior specializes in crafting functional and inspiring corporate office interiors in Kerala. See how we can turn your workstation into a center for productivity and creativity"
+        />
+        <link
+          rel="canonical"
+          href="https://inddecoreinteriors.com/corporate-interior"
+        />
+      </Helmet>
+      
       <section>
         <div className="relative h-96 max-md:h-[500px]">
           <img
@@ -25,9 +41,9 @@ const Corporate = () => {
 
           <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
-          <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-            <h2 className="text-[38px] font-medium italic font-cormorant text-white ">
-              Corporate Office Interior Designers in Chennai
+          <div className="absolute top-0 z-10 w-full h-auto px-10 pt-20 max-sm:px-3">
+            <h2 className="text-[30px] font-medium italic font-cormorant text-white ">
+            KERALA-BASED INDDECORE INTERIOR CREATES CORPORATE OFFICE INTERIORS.
             </h2>
             <h2 className="text-[65px] font-semibold font-cormorant text-white ">
               INDDECORE INTERIO
@@ -44,11 +60,11 @@ const Corporate = () => {
       <section>
         <div className="mt-10">
           <h2 className="text-[38px] max-md:px-5 max-md:text-[25px] text-center text-red-600 font-medium italic font-cormorant ">
-            Corporate Office Interior Designers in Chennai
+          DESIGNERS FOR CORPORATE OFFICE INTERERIORS
           </h2>
 
-          <h2 className=" max-lg:px-20 max-sm:text-[30px] text-[50px] font-cormantThiner uppercase max-sm:px-6 max-lg:text-[45px] px-56 font-bold text-center text-gray-600   ">
-            Our Corporate Office Interior Designing Services
+          <h2 className=" max-lg:px-10 max-sm:text-[30px] text-[40px] font-cormantThiner uppercase max-sm:px-6 max-lg:text-[45px] px-20 font-bold text-center text-gray-600   ">
+          WE BELIEVES IN HARMONIZING YOUR CORPORATE IDENTITY WITH THE NATURAL BEAUTY OF KERALA'S SURROUNDINGS.
           </h2>
 
           <center>
@@ -56,9 +72,7 @@ const Corporate = () => {
           </center>
 
           <p className="px-48 mt-5 font-bold text-center text-[25px] text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
-            We are the professional interior designers in chennai. Being the
-            best interior designers in chennai, our consistently developing
-            customer base stands declaration to our quality models.
+          Inddecore Interior brings to your corporate office the perfect blend of creative vision and technical expertise. We are dedicated to creating workspaces that go beyond aesthetics, contributing to your business's growth. ensuring that your office not only looks impressive but also enhances the overall work experience.
           </p>
         </div>
       </section>

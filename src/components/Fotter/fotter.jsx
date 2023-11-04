@@ -7,6 +7,8 @@ import { FaLocationDot } from "react-icons/fa6";
 import Footerbg from "../../assets/images/home/footerbg.webp";
 import { Link } from "react-router-dom";
 import ScrollComponent from "../../components/move-to-top";
+
+import Whatsapp from "../../components/whats-app-button";
 // import { RiArrowDropUpLine } from "react-icons/ri";
 // bg-[#00677f]
 const Footer = () => {
@@ -145,13 +147,15 @@ const Footer = () => {
         </div>
 
         <div className="flex justify-between px-10 py-2 text-white bg-gray-700 font-Barlow">
-          <p>Design and Developed by Ulix Technology.</p>
+          <p>Design and Developed by Honey Iconics.</p>
           <p className="text-end">
             Copyright © Inddo Interiors All rights reserved
           </p>
         </div>
         <ScrollComponent />
+        <Whatsapp />
       </section>
+   
       {/* ========================== */}
     </>
   );

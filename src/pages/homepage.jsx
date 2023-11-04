@@ -240,14 +240,16 @@ const Homepage = () => {
                     TALENTED DESIGNERS WITH US
                   </p>
                   <p className="text-justify font-extrabold text-[18px] text-gray-800  font-cormantThiner">
-                    stablished in the year 2018, THOMAR is a highly reputed
-                    interior brand. It is supported by a powerful team of
-                    architects, interior designers and supervisors etc. This
-                    widely acclaimed brand, which offers turnkey interior
-                    solutions, is known for its exceptional research and
-                    development wing. It handles both residential and commercial
-                    projects. It maintains international standards in design,
-                    material, as well as execution..
+                    Experience the finest interior design in Kerala with
+                    Inddecore Interior. We are the ultimate choice for creating
+                    the best interiors in Kerala, transforming your spaces into
+                    masterpieces. Explore our services and portfolio now.
+                    Inddecore Interior is your trusted partner in the world of
+                    interior design, dedicated to redefining living spaces
+                    throughout the picturesque landscapes of Kerala. With a
+                    passion for excellence and a team of talented designers,
+                    we've established ourselves as the go-to choice for the best
+                    interiors in Kerala.
                   </p>
                 </div>
               </div>
@@ -779,7 +781,7 @@ const Homepage = () => {
                         <div className="px-5 pt-28 max-sm:px-0 max-md:pt-20">
                           <p className="font-cormantThiner">10-10-2023</p>
                           <p className="font-semibold font-cormantThiner text-[25px]">
-                            Danial
+                            vishwa
                           </p>
 
                           <ul className="flex justify-center ">

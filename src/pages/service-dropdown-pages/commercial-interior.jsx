@@ -13,12 +13,26 @@ import CorporateOffice from "../../assets/images/Services-images/Commercial-imag
 import School from "../../assets/images/Services-images/Commercial-image-interior/School.jpg";
 import Colleges from "../../assets/images/Services-images/Commercial-image-interior/College.jpg";
 import SuperMarket from "../../assets/images/Services-images/Commercial-image-interior/Supermarket.jpg";
-
-
+import { Helmet } from "react-helmet";
 
 const Commercial = () => {
   return (
     <>
+      {" "}
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Commercial Interior Expertise by Inddecore Interior in Kerala
+        </title>
+        <meta
+          name="description"
+          content="Inddecore Interior specializes in crafting exceptional commercial interiors in Kerala. Discover how we can transform your business space with expert design and functionality"
+        />
+        <link
+          rel="canonical"
+          href="https://inddecoreinteriors.com/home-interior"
+        />
+      </Helmet>
       <section>
         <div className="relative h-96 max-md:h-[500px]">
           <img
@@ -31,7 +45,7 @@ const Commercial = () => {
 
           <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
             <h2 className="text-[38px] font-medium italic  font-cormorant text-white ">
-              Commercial Interior Designers In Chennai
+              COMMERCIAL INTERIOR DESIGNERS IN KERALA
             </h2>
             <h2 className="text-[65px] font-semibold font-cormorant text-white ">
               INDDECORE INTERIO
@@ -47,11 +61,12 @@ const Commercial = () => {
       <section>
         <div className="mt-10">
           <h2 className="text-[38px] max-md:px-5 max-md:text-[25px] text-center text-red-600 font-medium italic font-cormorant ">
-            Corporate Office Interior Designers in Chennai
+            DESIGNERS FOR COMMERCIAL INTERIOR
           </h2>
 
-          <h2 className="text-[50px] font-cormantThiner uppercase max-lg:px-20 max-sm:text-[30px] max-sm:px-6 max-lg:text-[45px] px-56 font-bold text-center text-gray-600   ">
-            Our Corporate Office Interior Designing Services
+          <h2 className="text-[37px] font-cormantThiner uppercase max-lg:px-20 max-sm:text-[30px] max-sm:px-6 max-lg:text-[45px] px-32 font-bold text-center text-gray-600   ">
+            WE ARE DEDICATED TO CREATING COMMERCIAL SPACES FOR YOUR BUSINESS'S
+            GROWTH
           </h2>
 
           <center>
@@ -59,9 +74,11 @@ const Commercial = () => {
           </center>
 
           <p className="px-48 mt-5 font-bold text-center text-[25px] text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
-            We are the professional interior designers in chennai. Being the
-            best interior designers in chennai, our consistently developing
-            customer base stands declaration to our quality models.
+            Inddecore Interior welcomes you to an exciting realm of commercial
+            interior design, where innovation, functionality, and aesthetics
+            converge to create inspiring workspaces in the enchanting backdrop
+            of Kerala. From corporate offices to retail spaces, we take pride in
+            turning commercial environments into productive, comfortable.
           </p>
         </div>
 

@@ -61,13 +61,15 @@ const Aboutus = () => {
               <div className="h-[1px] bg-black border-dotted w-[100%] mt-10"></div>
 
               <p className="mt-10 text-[22px] font-extrabold text-justify text-black font-cormantThiner">
-                stablished in the year 2018, THOMAR is a highly reputed interior
-                brand. It is supported by a powerful team of architects,
-                interior designers and supervisors etc. This widely acclaimed
-                brand, which offers turnkey interior solutions, is known for its
-                exceptional research and development wing. It handles both
-                residential and commercial projects. It maintains international
-                standards in design, material, as well as execution..
+                Experience the finest interior design in Kerala with Inddecore
+                Interior. We are the ultimate choice for creating the best
+                interiors in Kerala, transforming your spaces into masterpieces.
+                Explore our services and portfolio now. Inddecore Interior is
+                your trusted partner in the world of interior design, dedicated
+                to redefining living spaces throughout the picturesque
+                landscapes of Kerala. With a passion for excellence and a team
+                of talented designers, we've established ourselves as the go-to
+                choice for the best interiors in Kerala.
               </p>
             </div>
             <div className="w-[60%] Baner-black-white max-md:w-full h-[100%] pt-16 p-5 bg-gray-200 pb-28">
@@ -118,28 +120,18 @@ const Aboutus = () => {
 
           <div className="mt-20">
             <h2 className="text-center text-[30px] italic text-red-600">
-              Innovative ideas, stylish designs
+              EXPLORE OUR COMPREHENSIVE HOME CONSTRUCTION SERVICES.
             </h2>
-            <h2 className="text-center text-[60px] uppercase font-cormantThiner font-semibold text-gray-600  mb-8">
-              Get top professionals for you
+            <h2 className="text-center text-[35px] uppercase font-cormantThiner font-semibold text-gray-600  mb-8">
+              STAY UPDATED WITH THE LATEST TRENDS IN INTERIOR DESIGN AND HOME
+              CONSTRUCTION
             </h2>
             <div className="flex gap-10 font-extrabold text-justify text-black max-md:flex-col font-cormantThiner">
               <p className="w-[50%] text-[18px] max-md:w-full">
-                Our Interior designers group represents considerable authority
-                in making dynamic exceptional interiors for the elite group of
-                residences and business foundations. Our designing specialists
-                work with you on a one-on-one premise to make an unparalleled
-                living encounter, regardless of whether your taste is customary
-                or the present day. We at Bizzoppo are pleasured to convey rich
-                and inventive arrangements that straightforwardly connect to our
+              We transform dreams into architectural marvels against the breathtaking backdrop of Kerala's natural beauty. Our mission is to bridge the gap between your dream home and its realization, one meticulously designed space at a time. At Inddecore Interior, we are dream weavers, design aficionados, and construction experts. We take pride in crafting homes that are not only built to perfection but also infused with your unique style and specific needs. Our professional team is dedicated to making your vision come to life. Learn about the transformational potential of our interior design offerings. From selecting the perfect color palette to curating the finest furnishings, our experts focus on every detail to create the ambiance you desire. 
               </p>
               <p className="w-[50%] text-[18px] max-md:w-full ">
-                customer’s needs. Each venture begins with an idea and each idea
-                is made from an exceptionally close to home association with our
-                customers. We at Bizzoppo give first preference to our
-                customers’ desires. With the help of our workforce and most
-                recent innovations, we are amongst the best Interior Designers
-                in Chennai and Bangalore.
+              We're determined to stay at the top of our industry. Witness the evolution of your vision into a tangible reality. We think it's important to lead the industry. Our blog is your source for the latest trends in interior design and home construction in Kerala. From innovative design ideas to sustainable building practices, we share insights, tips, and inspiration to keep you informed and prepared to create a space that's truly yours amidst Kerala's lush beauty.
               </p>
             </div>
           </div>
