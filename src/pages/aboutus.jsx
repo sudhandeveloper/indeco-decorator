@@ -223,7 +223,7 @@ const Aboutus = () => {
             <h2 className="mt-5 text-[50px] max-md:text-[30px] text-white font-semibold">
               For Any Inquiries Please Call
             </h2>
-            <h2 className="mt-4 text-[25px] text-red-500">+91 866 722 3919</h2>
+            <h2 className="mt-4 text-[25px] text-red-500">+91 96334 61561</h2>
 
             <div className="w-48 h-[2px] mt-5 max-lg:w-full bg-white rounded-full"></div>
 
