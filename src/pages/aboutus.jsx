@@ -128,10 +128,29 @@ const Aboutus = () => {
             </h2>
             <div className="flex gap-10 font-extrabold text-justify text-black max-md:flex-col font-cormantThiner">
               <p className="w-[50%] text-[18px] max-md:w-full">
-              We transform dreams into architectural marvels against the breathtaking backdrop of Kerala's natural beauty. Our mission is to bridge the gap between your dream home and its realization, one meticulously designed space at a time. At Inddecore Interior, we are dream weavers, design aficionados, and construction experts. We take pride in crafting homes that are not only built to perfection but also infused with your unique style and specific needs. Our professional team is dedicated to making your vision come to life. Learn about the transformational potential of our interior design offerings. From selecting the perfect color palette to curating the finest furnishings, our experts focus on every detail to create the ambiance you desire. 
+                We transform dreams into architectural marvels against the
+                breathtaking backdrop of Kerala's natural beauty. Our mission is
+                to bridge the gap between your dream home and its realization,
+                one meticulously designed space at a time. At Inddecore
+                Interior, we are dream weavers, design aficionados, and
+                construction experts. We take pride in crafting homes that are
+                not only built to perfection but also infused with your unique
+                style and specific needs. Our professional team is dedicated to
+                making your vision come to life. Learn about the
+                transformational potential of our interior design offerings.
+                From selecting the perfect color palette to curating the finest
+                furnishings, our experts focus on every detail to create the
+                ambiance you desire.
               </p>
               <p className="w-[50%] text-[18px] max-md:w-full ">
-              We're determined to stay at the top of our industry. Witness the evolution of your vision into a tangible reality. We think it's important to lead the industry. Our blog is your source for the latest trends in interior design and home construction in Kerala. From innovative design ideas to sustainable building practices, we share insights, tips, and inspiration to keep you informed and prepared to create a space that's truly yours amidst Kerala's lush beauty.
+                We're determined to stay at the top of our industry. Witness the
+                evolution of your vision into a tangible reality. We think it's
+                important to lead the industry. Our blog is your source for the
+                latest trends in interior design and home construction in
+                Kerala. From innovative design ideas to sustainable building
+                practices, we share insights, tips, and inspiration to keep you
+                informed and prepared to create a space that's truly yours
+                amidst Kerala's lush beauty.
               </p>
             </div>
           </div>
@@ -228,46 +247,43 @@ const Aboutus = () => {
               </ul>
             </div>
           </div>
-          <div>
-            <div className="w-[100%] max-lg:mt-10 bg-red-500">
-              {" "}
-              <div className="lg:w-[600px] max-lg:w-full mapouter">
-                <div className="gmap_canvas">
-                  <iframe
-                    className="gmap_iframe"
-                    title="Google Map of Coimbatore"
-                    frameborder="0"
-                    scrolling="no"
-                    marginheight="0"
-                    marginwidth="0"
-                    src="https://maps.google.com/maps?width=600&height=400&hl=en&q=coimbatore&t=h&z=14&ie=UTF8&iwloc=B&output=embed"
-                  ></iframe>
-                  <a href="https://connectionsgame.org/">
-                    Connections Unlimited
-                  </a>
-                </div>
-                <style>
-                  {`
-      .mapouter {
-        position: relative;
-        text-align: right;
-        height: 400px;
-      }
-
-      .gmap_canvas {
-        overflow: hidden;
-        background: none!important;
-        width: 100%;
-        height: 400px;
-      }
-
-      .gmap_iframe {
-        width: 100%!important;
-        height: 400px!important;
-      }
-    `}
-                </style>
-              </div>
+          <div
+            className="mapouter"
+            style={{
+              position: "relative",
+              height: "400px",
+              width: "100%",
+              background: "#fff",
+            }}
+          >
+            <div
+              className="gmap_canvas"
+              style={{ overflow: "hidden", height: "auto", width: "auto" }}
+            >
+              <iframe
+                title="Google Map"
+                src="https://maps.google.com/maps?q=Inddecore%20Interio%20Opposite%20%E2%80%93%20Apollo%20Tyres%20Perambra%20%E2%80%93%20Chalakudi%20%E2%80%93%20Thrissur%20680689&amp;t=k&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                frameBorder="0"
+                scrolling="no"
+                style={{
+                  width: "100%",
+                  height: "400px",
+                  position: "relative",
+                  zIndex: 2,
+                }}
+              ></iframe>
+              <a
+                href="https://blooketjoin.org"
+                style={{
+                  color: "#fff",
+                  position: "absolute",
+                  top: "50px",
+                  left: "20px",
+                  zIndex: 9999,
+                }}
+              >
+                blooket join
+              </a>
             </div>
           </div>
         </div>
