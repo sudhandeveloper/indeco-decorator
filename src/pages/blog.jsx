@@ -1,6 +1,7 @@
 import React from "react";
 import BlogBanner from "../assets/images/Blog/blog-banner.jpg";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 const Blog = () => {
   return (
     <>
@@ -24,16 +25,20 @@ const Blog = () => {
           <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
           <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-            <h2 className="text-[38px] font-medium italic font-cormorant text-white ">
+            <h2 className="italic font-medium text-white text-thirtyfivepixls font-cormorant ">
               Interior Designers BOLG
             </h2>
-            <h2 className="text-[65px] font-semibold font-cormorant text-white ">
+            <h2 className="font-semibold text-white text-thirtyfivepixls font-cormorant ">
               INDDECORE INTERIO
             </h2>
             <div className="w-20 h-[1px] bg-red-600"></div>
-            <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-red-600 font-cormantThiner tracking-wider]">
-              Hire us
-            </button>
+
+            <Link to={"/Contact-us"}>
+              {" "}
+              <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-red-600 font-cormantThiner tracking-wider]">
+                Hire us
+              </button>{" "}
+            </Link>
           </div>
         </div>
 
@@ -124,7 +129,7 @@ const Blog = () => {
 
               <div className="px-6 py-5 shadow-lg font-cormantThiner rounded-2xl shadow-gray-500">
                 <h2 className="mb-2 mt-10 font-cormorant font-extrabold text-[40px] text-green-700">
-                Master Bedroom Interiors is a Personal Haven
+                  Master Bedroom Interiors is a Personal Haven
                 </h2>
                 <h2 className=" font-extrabold text-[25px]">
                   Your master bedroom should be a reflection of your personal

@@ -42,10 +42,10 @@ const Corporate = () => {
           <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
           <div className="absolute top-0 z-10 w-full h-auto px-10 pt-20 max-sm:px-3">
-            <h2 className="text-[30px] font-medium italic font-cormorant text-white ">
+            <h2 className="italic font-medium text-white text-thirtyfivepixls font-cormorant ">
             KERALA-BASED INDDECORE INTERIOR CREATES CORPORATE OFFICE INTERIORS.
             </h2>
-            <h2 className="text-[65px] font-semibold font-cormorant text-white ">
+            <h2 className="font-semibold text-white text-thirtyfivepixls font-cormorant ">
               INDDECORE INTERIO
             </h2>
             <div className="w-20 h-[1px] bg-red-600"></div>
@@ -59,11 +59,11 @@ const Corporate = () => {
       {/* ========================== Best Residential Interior Designers in Chennai ============= */}
       <section>
         <div className="mt-10">
-          <h2 className="text-[38px] max-md:px-5 max-md:text-[25px] text-center text-red-600 font-medium italic font-cormorant ">
+          <h2 className="text-thirtyfivepixls max-md:px-5 max-md:text-[25px] text-center text-red-600 font-medium italic font-cormorant ">
           DESIGNERS FOR CORPORATE OFFICE INTERERIORS
           </h2>
 
-          <h2 className=" max-lg:px-10 max-sm:text-[30px] text-[40px] font-cormantThiner uppercase max-sm:px-6 max-lg:text-[45px] px-20 font-bold text-center text-gray-600   ">
+          <h2 className=" max-lg:px-10 max-sm:text-[30px] text-thirtyfivepixls font-cormantThiner uppercase max-sm:px-6 max-lg:text-[45px] px-20 font-bold text-center text-gray-600   ">
           WE BELIEVES IN HARMONIZING YOUR CORPORATE IDENTITY WITH THE NATURAL BEAUTY OF KERALA'S SURROUNDINGS.
           </h2>
 
@@ -71,7 +71,7 @@ const Corporate = () => {
             <div className="w-36 h-[2px] mt-5 bg-red-600"></div>
           </center>
 
-          <p className="px-48 mt-5 font-bold text-center text-[25px] text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
+          <p className="px-16 mt-5 font-bold text-center text-[25px] text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
           Inddecore Interior brings to your corporate office the perfect blend of creative vision and technical expertise. We are dedicated to creating workspaces that go beyond aesthetics, contributing to your business's growth. ensuring that your office not only looks impressive but also enhances the overall work experience.
           </p>
         </div>

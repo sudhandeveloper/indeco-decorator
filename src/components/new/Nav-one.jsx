@@ -14,7 +14,7 @@ const NavOne = () => {
 
   return (
     <>
-      <section>
+      <section className="sticky top-0 z-30 w-full">
         <div className="flex h-auto text-white bg-black shadow-lg ">
           <div className="w-[100%]  justify-end  h-auto ">
             <ul className="flex justify-end gap-3 pr-10 sm:pb-2 max-sm:gap-0 max-sm:flex font-RobatoCondensed">
@@ -42,7 +42,7 @@ const NavOne = () => {
         </div>
 
         {/* ------- */}
-        <div className=" h-[70px] max-md:h-auto  max-md:pb-2  text-red-500 shadow-lg ">
+        <div className=" h-[70px] max-md:h-auto bg-white max-md:pb-2  text-red-500 shadow-lg ">
           <div className="w-full pt-3 md:hidden pl-[88%]">
             <div
               className="w-[100%] text-right text-[25px] text-black"
@@ -58,11 +58,12 @@ const NavOne = () => {
             }`}
           >
             <div className="w-auto h-auto pt-1 pl-10 max-md:hidden max-lg:pl-2 max-lg:pr-3">
-              <img
+              <Link to={"/"}>     <img
                 className="object-contain h-[60px] "
                 src={LogoMain}
                 alt="loading"
-              />
+              /> </Link>
+         
             </div>
             <div className="w-full h-full ">
               <ul className="md:pt-6  max-md:flex-col  max-md:pb-5 justify-end pr-36 max-lg:pr-10 max-md:pr-0 flex head-ul cursor-default  h-auto md:gap-5 text-[16px] text-black uppercase font-serif tracking-wide ">

@@ -16,6 +16,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 const Aboutus = () => {
   return (
     <>
@@ -40,7 +41,7 @@ const Aboutus = () => {
           />
           <div className="absolute bottom-0 justify-end w-full h-full pt-48 font-cormantThiner">
             <div className="h-1 mb-3 ml-5 bg-white rounded-full max-sm:ml-3 max-sm:w-56 w-96"></div>
-            <h2 className="text-[42px] uppercase text-white pl-5 max-sm:pl-3">
+            <h2 className="pl-5 text-white uppercase text-thirtyfivepixls max-sm:pl-3">
               Indddecore Interio <br /> Designer.
             </h2>
           </div>
@@ -51,7 +52,7 @@ const Aboutus = () => {
           <div className="flex gap-5 px-16 mb-5 max-md:flex-col max-md:px-6 ">
             <div className="w-[40%] max-md:w-full pt-16">
               <h2 className="uppercase font-cormantThiner">About company</h2>
-              <h2 className="mt-10 font-extrabold text-[35px] font-cormantThiner">
+              <h2 className="mt-10 font-extrabold text-thirtyfivepixls font-cormantThiner">
                 RECOGNIZED <br /> INTERIOR & EXTERIOR <br />
                 <span className="font-medium text-[30px] text-red-600 uppercase">
                   Indddecore Interio
@@ -96,7 +97,7 @@ const Aboutus = () => {
               <h2 className="mb-3 italic font-cormantThiner">
                 We can help you to
               </h2>
-              <h2 className="text-[50px] font-extralight font-cormantThiner">
+              <h2 className="text-thirtyfivepixls font-extralight font-cormantThiner">
                 CONSTRUCTING YOUR IDEAL HOME
               </h2>
               <p className="mt-2 font-extrabold text-[18px] text-justify text-black font-cormantThiner">
@@ -109,12 +110,13 @@ const Aboutus = () => {
                 furniture selection, we take care of every detail to create the
                 ambiance you desire.
               </p>
-
-              <button className="w-auto h-auto py-2 mt-5 bg-red-600 px-7">
-                <span className="text-white text-[18px] uppercase">
-                  Hire Us
-                </span>
-              </button>
+              <Link to={"/Contact-us"}>
+                <button className="w-auto h-auto py-2 mt-5 bg-red-600 px-7">
+                  <span className="text-white text-[18px] uppercase">
+                    Hire Us
+                  </span>
+                </button>{" "}
+              </Link>
             </div>
           </div>
 
@@ -162,7 +164,7 @@ const Aboutus = () => {
           <h2 className="italic text-[30px] text-center text-red-600">
             Designing the future
           </h2>
-          <h2 className="mt-3 text-[50px] font-semibold text-center font-cormantThiner uppercase text-gray-600">
+          <h2 className="mt-3 text-center text-gray-600 uppercase font-serifmibold text-thirtyfivepixls font-cormantThiner">
             Why To Choose Us?
           </h2>
           <center>
@@ -204,7 +206,7 @@ const Aboutus = () => {
 
                 <Whychooseus
                   h2={<BsEmojiSmile />}
-                  heading="2597+ Happy Customers"
+                  heading="Happy Customers"
                   para="We have finished more than 2569+ luxury villas and commercial projects. so our workers are very well organised team to deliver good models to you."
                 />
               </div>
@@ -220,7 +222,7 @@ const Aboutus = () => {
             <h2 className="uppercase  text-[24px] text-red-500 italic">
               Contact Now
             </h2>
-            <h2 className="mt-5 text-[50px] max-md:text-[30px] text-white font-semibold">
+            <h2 className="mt-5 text-thirtyfivepixls max-md:text-[30px] text-white font-semibold">
               For Any Inquiries Please Call
             </h2>
             <h2 className="mt-4 text-[25px] text-red-500">+91 96334 61561</h2>

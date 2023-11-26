@@ -12,6 +12,7 @@ import KidsRoom from "../../assets/images/Services-images/Home-interior-images/k
 import Cocakary from "../../assets/images/Services-images/Home-interior-images/Cocary.jpg";
 import Utility from "../../assets/images/Services-images/Home-interior-images/utility.jpg";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 const HomeInterior = () => {
   return (
@@ -43,16 +44,17 @@ const HomeInterior = () => {
           <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
           <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-            <h2 className="text-[38px] font-medium italic font-cormorant text-white ">
+            <h2 className="italic font-medium text-white text-thirtyfivepixls font-cormorant ">
               HOME INTERIOR DESIGNERS IN KERALA
             </h2>
-            <h2 className="text-[65px] font-semibold font-cormorant text-white ">
+            <h2 className="font-semibold text-white text-thirtyfivepixls font-cormorant ">
               INDDECORE INTERIO
             </h2>
             <div className="w-20 h-[1px] bg-red-600"></div>
-            <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-red-600 font-cormantThiner tracking-wider]">
+            <Link to={"/Contact-us"}>     <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-red-600 font-cormantThiner tracking-wider]">
               Hire us
-            </button>
+            </button></Link>
+       
           </div>
         </div>
       </section>
@@ -60,11 +62,11 @@ const HomeInterior = () => {
       {/* ========================== Best Residential Interior Designers in Chennai ============= */}
       <section>
         <div className="mt-10">
-          <h2 className="text-[38px] max-md:px-5 max-md:text-[25px] text-center text-red-600 font-medium italic font-cormorant ">
+          <h2 className="text-thirtyfivepixls max-md:px-5 max-md:text-[25px] text-center text-red-600 font-medium italic font-cormorant ">
             DESIGNERS FOR HOME INTERIOR
           </h2>
 
-          <h2 className="text-[50px] font-cormantThiner uppercase max-lg:px-20 max-sm:text-[30px] max-sm:px-6 max-lg:text-[40px] px-56 font-bold text-center text-gray-600   ">
+          <h2 className="text-thirtyfivepixls font-cormantThiner uppercase max-lg:px-20 max-sm:text-[30px] max-sm:px-6 max-lg:text-[40px] px-56 font-bold text-center text-gray-600   ">
             WE UNDERSTANDS THAT YOUR HOME YOUR PERSONALITY AND TASTE.
           </h2>
 
@@ -72,7 +74,7 @@ const HomeInterior = () => {
             <div className="w-36 h-[2px] mt-5 bg-red-600"></div>
           </center>
 
-          <p className="px-48 mt-5 font-bold text-center text-[22px] text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
+          <p className="px-16 mt-5 font-bold text-center text-[22px] text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
             Our "Home Interior" services go beyond mere design, we breathe life
             into your ideas, enhancing your living spaces with meticulous
             planning, artful craftsmanship, and an unwavering commitment to

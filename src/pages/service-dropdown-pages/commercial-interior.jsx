@@ -14,6 +14,7 @@ import School from "../../assets/images/Services-images/Commercial-image-interio
 import Colleges from "../../assets/images/Services-images/Commercial-image-interior/College.jpg";
 import SuperMarket from "../../assets/images/Services-images/Commercial-image-interior/Supermarket.jpg";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 const Commercial = () => {
   return (
@@ -44,27 +45,29 @@ const Commercial = () => {
           <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
           <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-            <h2 className="text-[38px] font-medium italic  font-cormorant text-white ">
+            <h2 className="italic font-medium text-white text-thirtyfivepixls font-cormorant ">
               COMMERCIAL INTERIOR DESIGNERS IN KERALA
             </h2>
-            <h2 className="text-[65px] font-semibold font-cormorant text-white ">
+            <h2 className="font-semibold text-white text-thirtyfivepixls font-cormorant ">
               INDDECORE INTERIO
             </h2>
-            <div className="w-20 h-[1px] bg-red-600"></div>
-            <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-red-600 font-cormantThiner tracking-wider]">
-              Hire us
-            </button>
+            <div className="w-20 h-[1px] bg-red-600"></div>\
+            <Link to={"/Contact-us"}>
+              <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-red-600 font-cormantThiner tracking-wider]">
+                Hire us
+              </button>{" "}
+            </Link>
           </div>
         </div>
       </section>
       {/* ========================== Best Residential Interior Designers in Chennai ============= */}
       <section>
         <div className="mt-10">
-          <h2 className="text-[38px] max-md:px-5 max-md:text-[25px] text-center text-red-600 font-medium italic font-cormorant ">
+          <h2 className="text-thirtyfivepixls max-md:px-5 max-md:text-[25px] text-center text-red-600 font-medium italic font-cormorant ">
             DESIGNERS FOR COMMERCIAL INTERIOR
           </h2>
 
-          <h2 className="text-[37px] font-cormantThiner uppercase max-lg:px-20 max-sm:text-[30px] max-sm:px-6 max-lg:text-[45px] px-32 font-bold text-center text-gray-600   ">
+          <h2 className="text-thirtyfivepixls font-cormantThiner uppercase max-lg:px-20 max-sm:text-[30px] max-sm:px-6 max-lg:text-[45px] px-32 font-bold text-center text-gray-600   ">
             WE ARE DEDICATED TO CREATING COMMERCIAL SPACES FOR YOUR BUSINESS'S
             GROWTH
           </h2>
@@ -73,7 +76,7 @@ const Commercial = () => {
             <div className="w-36 h-[2px] mt-5 bg-red-600"></div>
           </center>
 
-          <p className="px-48 mt-5 font-bold text-center text-[25px] text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
+          <p className="px-16 mt-5 font-bold text-center text-[25px] text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
             Inddecore Interior welcomes you to an exciting realm of commercial
             interior design, where innovation, functionality, and aesthetics
             converge to create inspiring workspaces in the enchanting backdrop

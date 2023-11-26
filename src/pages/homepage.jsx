@@ -181,7 +181,7 @@ const Homepage = () => {
         {/* ============================= World-Class Luxury Interior Designer ========== */}
         <section>
           <div className="px-16 mb-10 max-sm:px-4">
-            <p className="font-cormantThiner max-sm:text-[32px] text-gray-700 text-[50px] text-center ">
+            <p className="font-cormantThiner max-sm:text-[32px] text-gray-700 text-thirtyfivepixls font-bold   text-center ">
               <h2> Crafting the Best Interiors in kerala </h2>
             </p>
             <p className="mt-5 text-center text-[26px] px-36 font-cormantThiner max-lg:px-14 max-md:px-10 max-sm:px-1">
@@ -194,12 +194,14 @@ const Homepage = () => {
               </h3>
             </p>
             <center>
-              <div className="lg:w-[20%] md:w-[40%] max-md:w-[40%]  bg-red-600  mt-10 flex justify-evenly text-[20px] pt-2 pb-2">
-                <button className="text-white uppercase font-cormantThiner ">
-                  Talk to Us
-                </button>
-                <BsArrowRight className="font-bold text-[35px] text-white " />
-              </div>
+              <Link to={"Contact-us"}>
+                <div className="lg:w-[20%] md:w-[40%] max-md:w-[40%]  bg-red-600  mt-10 flex justify-evenly text-[20px] pt-2 pb-2">
+                  <button className="text-white uppercase font-cormantThiner ">
+                    Talk to Us
+                  </button>
+                  <BsArrowRight className="font-bold text-[35px] text-white " />
+                </div>
+              </Link>
             </center>
           </div>
         </section>
@@ -209,11 +211,11 @@ const Homepage = () => {
         <section>
           <div className="pt-10 pb-1 bg-gray-200">
             <div className="">
-              <h1 className="text-center max-md:text-[50px] text-gray-500 font-bold uppercase text-[45px] font-cormantThiner ">
+              <h1 className="text-center max-md:text-[50px] text-gray-500 font-bold uppercase text-thirtyfivepixls font-cormantThiner ">
                 About <span className="text-red-600"> Inddecore Interio </span>
               </h1>
               <center>
-                <div className="h-1 bg-red-600 rounded-full w-96 max-md:hidden"></div>
+                <div className="h-1 bg-red-600 rounded-full w-72 max-md:hidden"></div>
               </center>
             </div>
             <div className="flex w-full h-auto px-20 mt-20 mb-20 max-md:px-6 max-lg:flex-col ">
@@ -227,7 +229,7 @@ const Homepage = () => {
 
               <div className="w-[50%] max-lg:w-full  h-auto ">
                 <div className="h-[25%] text-center pt-5">
-                  <h1 className="text-center text-gray-500 font-bold uppercase text-[45px] font-cormantThiner ">
+                  <h1 className="font-bold text-center text-gray-500 uppercase text-thirtyfivepixls font-cormantThiner ">
                     <span className="text-red-600"> Inddecore </span>Interio
                   </h1>
                 </div>
@@ -262,7 +264,6 @@ const Homepage = () => {
         <section>
           <div className="flex gap-5 mt-20 justify-evenly px-11 max-md:px-6 max-lg:flex-col">
             <Link to={"Home-interiories"}>
-              {" "}
               <div className="relative z-0 Baner-black-white">
                 <img
                   className="object-cover z-[1] h-[500px] rounded-xl"
@@ -279,11 +280,10 @@ const Homepage = () => {
                     Check Our Latest Works Here.
                   </p>
                 </div>
-              </div>{" "}
+              </div>
             </Link>
 
             <Link to={"Corporate-interior"}>
-              {" "}
               <div className="relative Baner-black-white">
                 <img
                   className="rounded-xl h-[500px] object-cover w-full"
@@ -301,11 +301,10 @@ const Homepage = () => {
                     Check Our Latest Works Here.
                   </p>
                 </div>
-              </div>{" "}
+              </div>
             </Link>
 
             <Link to={"Commercial-interior"}>
-              {" "}
               <div className="relative Baner-black-white">
                 <img
                   className="rounded-xl  h-[500px] object-cover w-full"
@@ -342,7 +341,7 @@ const Homepage = () => {
                 </li>
               </ul>
 
-              <h2 className="text-[35px] uppercase font-extrabold font-cormantThiner ">
+              <h2 className="font-extrabold uppercase text-thirtyfivepixls font-cormantThiner ">
                 PROVIDE COMFORT TO THE AREA RATHER THAN JUST FURNISHING IT
               </h2>
               <p className="mt-5 text-justify text-[18px] text-black font-extrabold font-cormantThiner">
@@ -357,9 +356,12 @@ const Homepage = () => {
                 project.
               </p>
               <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly">
-                <button className="text-white uppercase font-cormantThiner">
-                  Contact Us
-                </button>
+                <Link to={"Contact-us"}>
+                  <button className="text-white uppercase font-cormantThiner">
+                    Contact Us
+                  </button>
+                </Link>
+
                 <BsArrowRight className="font-bold text-[35px] text-white " />
               </div>
             </div>
@@ -377,7 +379,7 @@ const Homepage = () => {
         <section>
           <div className="px-16 py-20 mt-16 max-sm:px-5 bg-gray-50">
             <center className="flex mb-16 justify-evenly">
-              <div className="w-80  h-[2px]  mt-6 bg-red-600"> </div>{" "}
+              <div className="w-80  h-[2px]  mt-6 bg-red-600"> </div>
               <h2 className="text-[35px] max-sm:text-18px font-cormantThiner font-bold">
                 Our <span className="text-red-600">Designing </span> Process
               </h2>
@@ -414,7 +416,7 @@ const Homepage = () => {
                       Customize
                     </h2>
                     <p className="font-cormantThiner text-[18px] px-3">
-                      Co-create customized design and get a quote{" "}
+                      Co-create customized design and get a quote
                     </p>
                   </div>
                 </div>
@@ -433,7 +435,7 @@ const Homepage = () => {
                       Place Your Order
                     </h2>
                     <p className="font-cormantThiner text-[18px]">
-                      After finalization design quote,v place you order{" "}
+                      After finalization design quote,v place you order
                     </p>
                   </div>
                 </div>
@@ -452,7 +454,7 @@ const Homepage = () => {
                       MoveIn
                     </h2>
                     <p className="font-cormantThiner text-[18px]">
-                      Move in to your newly furnished within 45-60 days{" "}
+                      Move in to your newly furnished within 45-60 days
                     </p>
                   </div>
                 </div>
@@ -475,9 +477,9 @@ const Homepage = () => {
                 </li>
               </ul>
 
-              <h2 className="text-[32px] mb-2 mt-2 uppercase font-extrabold font-cormantThiner ">
-                Why Choose Us <span className="text-red-600"> Indo Decor</span>{" "}
-                Interior Designer
+              <h2 className="text-[32px] mb-2 mt-2 uppercase font-extrabold  font-cormantThiner ">
+                Why Choose Us <span className="text-red-600"> INDDECORE</span>
+                INTERIO Designer
               </h2>
               <div className="pl-5">
                 <ul className="text-[18px] text-black font-extrabold font-cormantThiner list-disc">
@@ -492,9 +494,12 @@ const Homepage = () => {
                 </ul>
               </div>
               <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly ">
-                <button className="text-white uppercase font-cormantThiner">
-                  Contact Us
-                </button>
+                <Link to={"Contact-us"}>
+                  <button className="text-white uppercase font-cormantThiner">
+                    Contact Us
+                  </button>
+                </Link>
+
                 <BsArrowRight className="font-bold text-[35px] text-white " />
               </div>
             </div>
@@ -575,9 +580,10 @@ const Homepage = () => {
               </p>
               <center>
                 <div className="lg:w-[24%] max-sm:w-full md:w-[40%] max-md:w-[40%]  bg-red-600  mt-10 flex justify-evenly text-[20px] pt-2 pb-2">
-                  <button className="text-white font-cormantThiner ">
+                  <Link to={"Gallary"}>   <button className="text-white font-cormantThiner ">
                     SEE ALL PROJECTS
-                  </button>
+                  </button> </Link>
+               
                   <BsArrowRight className="font-bold text-[35px] text-white " />
                 </div>
               </center>
@@ -614,9 +620,11 @@ const Homepage = () => {
                 quality is paramount.
               </p>
               <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly">
-                <button className="text-white uppercase font-cormantThiner">
-                  Contact Us
-                </button>
+                <Link to={"Contact-us"}>
+                  <button className="text-white uppercase font-cormantThiner">
+                    Contact Us
+                  </button>
+                </Link>
                 <BsArrowRight className="font-bold text-[35px] text-white " />
               </div>
             </div>
@@ -626,8 +634,8 @@ const Homepage = () => {
                 <li>
                   <div>
                     <h2 className="text-[50px] max-sm:text-[30px] font-semibold flex">
-                      <span>3,726</span>{" "}
-                      <span className="text-red-600 text-[25px] ml-3">+</span>{" "}
+                      <span>3,726</span>
+                      <span className="text-red-600 text-[25px] ml-3">+</span>
                     </h2>
                     <h2 className="font-semibold text-red-600">
                       Finished Projects
@@ -642,8 +650,8 @@ const Homepage = () => {
                 <li>
                   <div>
                     <h2 className="text-[50px] max-sm:text-[30px] font-semibold flex">
-                      <span>69</span>{" "}
-                      <span className="text-red-600 text-[25px] ml-3">+</span>{" "}
+                      <span>69</span>
+                      <span className="text-red-600 text-[25px] ml-3">+</span>
                     </h2>
                     <h2 className="font-semibold text-red-600">
                       On Going Projects
@@ -658,8 +666,8 @@ const Homepage = () => {
                 <li>
                   <div>
                     <h2 className="text-[50px] max-sm:text-[30px] font-semibold flex">
-                      <span>150</span>{" "}
-                      <span className="text-red-600 text-[25px] ml-3">+</span>{" "}
+                      <span>150</span>
+                      <span className="text-red-600 text-[25px] ml-3">+</span>
                     </h2>
                     <h2 className="font-semibold text-red-600">Awards</h2>
                   </div>

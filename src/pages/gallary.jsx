@@ -19,6 +19,7 @@ import GallaeyImageSixteen from "../assets/images/gallary/18-min.jpg";
 import GallaeyImageSeventeen from "../assets/images/gallary/19-min.jpg";
 import GallaeyImageEighteen from "../assets/images/gallary/20-min.jpg";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 const Gallary = () => {
   return (
     <>
@@ -46,16 +47,19 @@ const Gallary = () => {
             <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
             <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-              <h2 className="text-[38px] font-medium italic font-cormorant text-white ">
-            EXPLORE OUR GALLERY AND LET THE IMAGES SPEAK FOR THEMSELVES.
+              <h2 className="italic font-medium text-white text-thirtyfivepixls font-cormorant ">
+                EXPLORE OUR GALLERY AND LET THE IMAGES SPEAK FOR THEMSELVES.
               </h2>
-              <h2 className="text-[65px] font-semibold font-cormorant text-white ">
+              <h2 className="font-semibold text-white text-thirtyfivepixls font-cormorant ">
                 INDDECORE INTERIO
               </h2>
               <div className="w-20 h-[1px] bg-red-600"></div>
-              <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-red-600 font-cormantThiner tracking-wider]">
-                Hire us
-              </button>
+              <Link to={"/Contact-us"}>
+                {" "}
+                <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-red-600 font-cormantThiner tracking-wider]">
+                  Hire us
+                </button>{" "}
+              </Link>
             </div>
           </div>
         </section>
@@ -63,7 +67,7 @@ const Gallary = () => {
         {/* -------------------------------------------- */}
         <section>
           <div className="m-10">
-            <h2 className="text-center text-[40px] font-cormantThiner font-extrabold">
+            <h2 className="font-extrabold text-center text-thirtyfivepixls font-cormantThiner">
               PERSONAL TOUCH BY{}
               <span className="text-red-600">INDDECORE INTERIO </span>
             </h2>

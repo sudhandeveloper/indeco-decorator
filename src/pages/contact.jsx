@@ -3,6 +3,7 @@ import ContactUs from "../assets/images/Contact-us/image-four.jpg";
 import { BsArrowRight } from "react-icons/bs";
 import Contacts from "../components/email";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <>
@@ -30,7 +31,7 @@ const Contact = () => {
           <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
           <div className="absolute top-0 z-10 w-full h-auto px-16 py-10 max-sm:px-3">
-            <h2 className="text-[38px] font-semibold font-cormantThiner text-white ">
+            <h2 className="font-semibold text-white text-thirtyfivepixls font-cormantThiner ">
               Meet a Expert Designer Today
             </h2>
             <div className="w-32 h-[1px] mt-5 mb-5 bg-red-600"></div>
@@ -69,7 +70,7 @@ const Contact = () => {
                 </li>
               </ul>
 
-              <h2 className="text-[42px] uppercase font-extrabold font-cormantThiner ">
+              <h2 className="font-extrabold uppercase text-thirtyfivepixls font-cormantThiner ">
                 Our Achievements
               </h2>
               <p className="mt-5 text-justify text-[18px] font-semibold text-black font-cormantThiner">
@@ -83,12 +84,16 @@ const Contact = () => {
                 exceptional designs. At Inddecore Interior, we believe that
                 quality is paramount.
               </p>
-              <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly">
-                <button className="text-white uppercase font-cormantThiner">
-                  Contact Us
-                </button>
+              {/* <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly">
+                <Link to={"#Contact-us"}>
+                  {" "}
+                  <button className="text-white uppercase font-cormantThiner">
+                    Contact Us
+                  </button>{" "}
+                </Link>
+
                 <BsArrowRight className="font-bold text-[35px] text-white " />
-              </div>
+              </div> */}
             </div>
 
             <div className="w-[60%] pt-24 max-lg:w-full rounded-xl  ">
@@ -140,8 +145,7 @@ const Contact = () => {
         </section>
 
         {/* =============== Contact-us =================== */}
-<Contacts/>
-    
+        <Contacts />
       </section>
     </>
   );
