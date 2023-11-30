@@ -9,7 +9,8 @@ export const theme = {
       cormorant: ["'Cormorant Infant', serif"],
       cormantThiner: ["'Cormorant Infant', serif"],
       Barlow: ["'Barlow', sans-serif"],
-      
+      dinlack: ["dinblack"],
+      popins:["'Poppins', sans-serif"]
     },
     fontSize: {
       thirtyfivepixls: "35px",

@@ -10,7 +10,10 @@
 html body {
   overflow-x: hidden;
 }
-
+@font-face {
+  font-family: "dinblack";
+  src: url("./assets/images/DIN-Black\ Regular.ttf");
+}
 /* -----------------------------nav bar two hover --- */
 .one {
   color: rgb(255, 0, 0);

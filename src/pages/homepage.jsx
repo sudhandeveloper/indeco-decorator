@@ -181,7 +181,7 @@ const Homepage = () => {
         {/* ============================= World-Class Luxury Interior Designer ========== */}
         <section>
           <div className="px-16 mb-10 max-sm:px-4">
-            <p className="font-cormantThiner max-sm:text-[32px] text-gray-700 text-thirtyfivepixls font-bold   text-center ">
+            <p className="font-dinlack uppercase max-sm:text-[32px] text-gray-700 text-thirtyfivepixls font-bold   text-center ">
               <h2> Crafting the Best Interiors in kerala </h2>
             </p>
             <p className="mt-5 text-center text-[26px] px-36 font-cormantThiner max-lg:px-14 max-md:px-10 max-sm:px-1">
@@ -211,8 +211,8 @@ const Homepage = () => {
         <section>
           <div className="pt-10 pb-1 bg-gray-200">
             <div className="">
-              <h1 className="text-center max-md:text-[50px] text-gray-500 font-bold uppercase text-thirtyfivepixls font-cormantThiner ">
-                About <span className="text-red-600"> Inddecore Interio </span>
+              <h1 className="text-center max-md:text-[50px] text-gray-500 tracking-wider  uppercase text-thirtyfivepixls font-cormantThiner font-bold">
+                About <span className="text-red-600  tracking-wider font-medium  font-popins " > Inddecore Interio </span>
               </h1>
               <center>
                 <div className="h-1 bg-red-600 rounded-full w-72 max-md:hidden"></div>
@@ -229,8 +229,8 @@ const Homepage = () => {
 
               <div className="w-[50%] max-lg:w-full  h-auto ">
                 <div className="h-[25%] text-center pt-5">
-                  <h1 className="font-bold text-center text-gray-500 uppercase text-thirtyfivepixls font-cormantThiner ">
-                    <span className="text-red-600"> Inddecore </span>Interio
+                  <h1 className=" font-cormantThiner font-bold tracking-wider text-center text-gray-500 uppercase text-thirtyfivepixls  ">
+                    <span className="text-red-600 font-medium  font-popins"> Inddecore </span>Interio
                   </h1>
                 </div>
 
@@ -238,7 +238,7 @@ const Homepage = () => {
                   <h2 className="uppercase tracking-widest text-[22px] text-gray-500">
                     MEET INDDECORE INTERIOR
                   </h2>
-                  <p className="text-[26px] tracking-wider font-medium text-red-600">
+                  <p className="text-[26px]  tracking-wider font-medium text-red-600">
                     TALENTED DESIGNERS WITH US
                   </p>
                   <p className="text-justify font-extrabold text-[18px] text-gray-800  font-cormantThiner">
@@ -580,10 +580,13 @@ const Homepage = () => {
               </p>
               <center>
                 <div className="lg:w-[24%] max-sm:w-full md:w-[40%] max-md:w-[40%]  bg-red-600  mt-10 flex justify-evenly text-[20px] pt-2 pb-2">
-                  <Link to={"Gallary"}>   <button className="text-white font-cormantThiner ">
-                    SEE ALL PROJECTS
-                  </button> </Link>
-               
+                  <Link to={"Gallary"}>
+                    {" "}
+                    <button className="text-white font-cormantThiner ">
+                      SEE ALL PROJECTS
+                    </button>{" "}
+                  </Link>
+
                   <BsArrowRight className="font-bold text-[35px] text-white " />
                 </div>
               </center>
