@@ -181,7 +181,7 @@ const Homepage = () => {
         {/* ============================= World-Class Luxury Interior Designer ========== */}
         <section>
           <div className="px-16 mb-10 max-sm:px-4">
-            <p className="font-dinlack uppercase max-sm:text-[32px] text-gray-700 text-thirtyfivepixls font-bold   text-center ">
+            <p className="font-popins font-extralight uppercase max-sm:text-[32px] text-gray-700 text-thirtyfivepixls    text-center ">
               <h2> Crafting the Best Interiors in kerala </h2>
             </p>
             <p className="mt-5 text-center text-[26px] px-36 font-cormantThiner max-lg:px-14 max-md:px-10 max-sm:px-1">
@@ -211,8 +211,8 @@ const Homepage = () => {
         <section>
           <div className="pt-10 pb-1 bg-gray-200">
             <div className="">
-              <h1 className="text-center max-md:text-[50px] text-gray-500 tracking-wider  uppercase text-thirtyfivepixls font-cormantThiner font-bold">
-                About <span className="text-red-600  tracking-wider font-medium  font-popins " > Inddecore Interio </span>
+              <h1 className="text-center  font-normal max-md:text-[50px] text-gray-500 tracking-wider  uppercase text-thirtyfivepixls font-popins ">
+                About <span className="font-normal tracking-wider text-red-600 " > Inddecore Interio </span>
               </h1>
               <center>
                 <div className="h-1 bg-red-600 rounded-full w-72 max-md:hidden"></div>
@@ -229,8 +229,8 @@ const Homepage = () => {
 
               <div className="w-[50%] max-lg:w-full  h-auto ">
                 <div className="h-[25%] text-center pt-5">
-                  <h1 className=" font-cormantThiner font-bold tracking-wider text-center text-gray-500 uppercase text-thirtyfivepixls  ">
-                    <span className="text-red-600 font-medium  font-popins"> Inddecore </span>Interio
+                  <h1 className="font-normal tracking-wider text-center text-gray-500 uppercase font-popins text-thirtyfivepixls">
+                    <span className="text-red-600 font-popins"> Inddecore </span>Interio
                   </h1>
                 </div>
 
