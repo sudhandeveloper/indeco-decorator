@@ -212,7 +212,11 @@ const Homepage = () => {
           <div className="pt-10 pb-1 bg-gray-200">
             <div className="">
               <h1 className="text-center  font-normal max-md:text-[50px] text-gray-500 tracking-wider  uppercase text-thirtyfivepixls font-popins ">
-                About <span className="font-normal tracking-wider text-red-600 " > Inddecore Interio </span>
+                About{" "}
+                <span className="font-normal tracking-wider text-red-600 ">
+                  {" "}
+                  Inddecore Interio{" "}
+                </span>
               </h1>
               <center>
                 <div className="h-1 bg-red-600 rounded-full w-72 max-md:hidden"></div>
@@ -230,7 +234,11 @@ const Homepage = () => {
               <div className="w-[50%] max-lg:w-full  h-auto ">
                 <div className="h-[25%] text-center pt-5">
                   <h1 className="font-normal tracking-wider text-center text-gray-500 uppercase font-popins text-thirtyfivepixls">
-                    <span className="text-red-600 font-popins"> Inddecore </span>Interio
+                    <span className="text-red-600 font-popins">
+                      {" "}
+                      Inddecore{" "}
+                    </span>
+                    Interio
                   </h1>
                 </div>
 
