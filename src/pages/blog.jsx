@@ -25,10 +25,11 @@ const Blog = () => {
           <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
           <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-            <h2 className="italic font-medium text-white text-thirtyfivepixls font-cormorant ">
+            <h2 className=" text-white text-thirtyfivepixls font-popins ">
               Interior Designers BOLG
             </h2>
-            <h2 className="font-semibold text-white text-thirtyfivepixls font-cormorant ">
+            <h2 className="font-popins text-white text-thirtyfivepixls 
+             ">
               INDDECORE INTERIO
             </h2>
             <div className="w-20 h-[1px] bg-red-600"></div>
@@ -44,7 +45,7 @@ const Blog = () => {
 
         {/* ========================== */}
         <section className="py-6 ">
-          <h2 className="text-center font-cormantThiner mt-10 mb-3 rounded-full  font-extrabold uppercase italic text-red-600 text-[55px]">
+          <h2 className="text-center font-popins mt-10 mb-3 rounded-full   uppercase  text-red-600 text-[35px]">
             Wellcome to Our Blog
           </h2>
           <center>
@@ -54,7 +55,7 @@ const Blog = () => {
             <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 sm:grid-cols-2">
               <div className="px-6 py-5 shadow-lg font-cormantThiner rounded-2xl shadow-gray-500">
                 {/* <img src={Ban} alt="loading" /> */}
-                <h2 className="mb-2 mt-10 font-cormorant font-extrabold text-[40px] text-green-700">
+                <h2 className="mb-2 mt-10 font-popins  text-[30px] text-green-700">
                   Kitchen Interiors is an Culinary Haven
                 </h2>
                 <h2 className=" font-extrabold text-[25px]">
@@ -80,7 +81,7 @@ const Blog = () => {
               </div>
 
               <div className="px-6 py-5 shadow-lg font-cormantThiner rounded-2xl shadow-gray-500">
-                <h2 className="mb-2 mt-10 font-cormorant font-extrabold text-[40px] text-green-700">
+                <h2 className="mb-2 mt-10 font-popins text-[30px] text-green-700">
                   Living Space Interiors are where your Comfort Meets Elegance
                 </h2>
                 <h2 className=" font-extrabold text-[25px]">
@@ -104,7 +105,7 @@ const Blog = () => {
               </div>
 
               <div className="px-6 py-5 shadow-lg font-cormantThiner rounded-2xl shadow-gray-500">
-                <h2 className="mb-2 mt-10 font-cormorant font-extrabold text-[40px] text-green-700">
+                <h2 className="mb-2 mt-10 font-popins  text-[30px] text-green-700">
                   Living Space Interiors are where your Comfort Meets Elegance
                 </h2>
 
@@ -128,7 +129,7 @@ const Blog = () => {
               </div>
 
               <div className="px-6 py-5 shadow-lg font-cormantThiner rounded-2xl shadow-gray-500">
-                <h2 className="mb-2 mt-10 font-cormorant font-extrabold text-[40px] text-green-700">
+                <h2 className="mb-2 mt-10  font-popins text-[30px] text-green-700">
                   Master Bedroom Interiors is a Personal Haven
                 </h2>
                 <h2 className=" font-extrabold text-[25px]">

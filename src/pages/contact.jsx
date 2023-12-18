@@ -31,7 +31,7 @@ const Contact = () => {
           <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
           <div className="absolute top-0 z-10 w-full h-auto px-16 py-10 max-sm:px-3">
-            <h2 className="font-semibold text-white text-thirtyfivepixls font-cormantThiner ">
+            <h2 className=" text-white text-thirtyfivepixls  font-popins ">
               Meet a Expert Designer Today
             </h2>
             <div className="w-32 h-[1px] mt-5 mb-5 bg-red-600"></div>
@@ -70,7 +70,7 @@ const Contact = () => {
                 </li>
               </ul>
 
-              <h2 className="font-extrabold uppercase text-thirtyfivepixls font-cormantThiner ">
+              <h2 className=" uppercase text-thirtyfivepixls  font-popins ">
                 Our Achievements
               </h2>
               <p className="mt-5 text-justify text-[18px] font-semibold text-black font-cormantThiner">

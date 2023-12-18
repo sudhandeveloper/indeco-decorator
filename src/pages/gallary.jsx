@@ -47,10 +47,10 @@ const Gallary = () => {
             <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
             <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-              <h2 className="italic font-medium text-white text-thirtyfivepixls font-cormorant ">
+              <h2 className="  text-white text-thirtyfivepixls  font-popins ">
                 EXPLORE OUR GALLERY AND LET THE IMAGES SPEAK FOR THEMSELVES.
               </h2>
-              <h2 className="font-semibold text-white text-thirtyfivepixls font-cormorant ">
+              <h2 className=" text-white text-thirtyfivepixls  font-popins ">
                 INDDECORE INTERIO
               </h2>
               <div className="w-20 h-[1px] bg-red-600"></div>
@@ -67,9 +67,9 @@ const Gallary = () => {
         {/* -------------------------------------------- */}
         <section>
           <div className="m-10">
-            <h2 className="font-extrabold text-center text-thirtyfivepixls font-cormantThiner">
+            <h2 className=" text-center text-thirtyfivepixls  font-popins">
               PERSONAL TOUCH BY{}
-              <span className="text-red-600">INDDECORE INTERIO </span>
+              <span className="text-red-600 ml-2">INDDECORE INTERIO </span>
             </h2>
             <center>
               <div className="w-40 h-1 mt-3 mb-3 bg-red-600 rounded-full"></div>

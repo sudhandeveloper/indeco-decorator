@@ -32,10 +32,10 @@ const SendEmailForm = () => {
       <section>
         <div className="flex max-lg:flex-col  px-16 max-md:px-6 bg-[#28282B] py-10">
           <div className="w-[50%]  max-md:text-center items-center max-lg:w-full max-md:mb-10">
-            <h2 className="uppercase  text-[24px] text-red-500 italic">
+            <h2 className="uppercase  text-[24px] text-red-500  font-popins">
               Contact Now
             </h2>
-            <h2 className="mt-5 text-[30px] max-md:text-[30px] text-white font-semibold">
+            <h2 className="mt-5 text-[30px] max-md:text-[30px] text-white uppercase font-popins">
               For Any Inquiries Please Call
             </h2>
             <h2 className="mt-4 text-[25px]  text-red-500">
@@ -69,7 +69,7 @@ const SendEmailForm = () => {
             className="p-5 w-[60%] max-lg:w-full max-lg:mt-10"
             onSubmit={handleFormSubmit}
           >
-            <h2 className="text-center text-[25px] mb-5  text-red-600 italic ">
+            <h2 className="text-center text-[25px] mb-5  text-red-600  font-popins  ">
               Contact Form
             </h2>
             <div className="">
