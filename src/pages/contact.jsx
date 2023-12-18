@@ -1,9 +1,9 @@
 import React from "react";
 import ContactUs from "../assets/images/Contact-us/image-four.jpg";
-import { BsArrowRight } from "react-icons/bs";
+// import { BsArrowRight } from "react-icons/bs";
 import Contacts from "../components/email";
 import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <>
