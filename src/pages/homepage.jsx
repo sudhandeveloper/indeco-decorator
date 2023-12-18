@@ -349,7 +349,7 @@ const Homepage = () => {
                 </li>
               </ul>
 
-              <h2 className="font-extrabold uppercase text-thirtyfivepixls font-cormantThiner ">
+              <h2 className=" uppercase text-[27px] font-popins ">
                 PROVIDE COMFORT TO THE AREA RATHER THAN JUST FURNISHING IT
               </h2>
               <p className="mt-5 text-justify text-[18px] text-black font-extrabold font-cormantThiner">
@@ -363,9 +363,9 @@ const Homepage = () => {
                 artisans to deliver the highest quality workmanship in every
                 project.
               </p>
-              <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly">
+              <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] max-sm:w-[50%] py-2 bg-red-600  mt-10 flex justify-evenly">
                 <Link to={"Contact-us"}>
-                  <button className="text-white uppercase font-cormantThiner">
+                  <button className="text-white uppercase font-cormantThiner mt-1">
                     Contact Us
                   </button>
                 </Link>
@@ -485,8 +485,9 @@ const Homepage = () => {
                 </li>
               </ul>
 
-              <h2 className="text-[32px] mb-2 mt-2 uppercase font-extrabold  font-cormantThiner ">
-                Why Choose Us <span className="text-red-600"> INDDECORE</span>
+              <h2 className="text-[27px] mb-2 mt-2 uppercase font-normal  font-popins ">
+                Why Choose Us{" "}
+                <span className="text-red-600 mr-2 ml-2"> INDDECORE</span>
                 INTERIO Designer
               </h2>
               <div className="pl-5">
@@ -501,9 +502,9 @@ const Homepage = () => {
                   <li>Quality in Affordable Pricing</li>
                 </ul>
               </div>
-              <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly ">
+              <div className="lg:w-[38%] md:w-[35%] max-sm:w-[50%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly ">
                 <Link to={"Contact-us"}>
-                  <button className="text-white uppercase font-cormantThiner">
+                  <button className="text-white uppercase font-cormantThiner mt-1">
                     Contact Us
                   </button>
                 </Link>
@@ -526,7 +527,7 @@ const Homepage = () => {
 
         <section className="py-6 pt-10">
           <div>
-            <h2 className="text-center font-semibold text-[32px] font-cormantThiner tracking-wider">
+            <h2 className="text-center  text-[32px] font-popins tracking-wider">
               RECENT <span className="text-red-600"> PROJECTS </span>
             </h2>
           </div>
@@ -587,7 +588,7 @@ const Homepage = () => {
                 personality, with our Inddecore interior expertise.
               </p>
               <center>
-                <div className="lg:w-[24%] max-sm:w-full md:w-[40%] max-md:w-[40%]  bg-red-600  mt-10 flex justify-evenly text-[20px] pt-2 pb-2">
+                <div className="lg:w-[24%]  max-sm:w-[74%] md:w-[40%] max-md:w-[40%]  bg-red-600  mt-10 flex justify-evenly text-[20px] pt-2 pb-2">
                   <Link to={"Gallary"}>
                     {" "}
                     <button className="text-white font-cormantThiner ">
@@ -616,7 +617,7 @@ const Homepage = () => {
                 </li>
               </ul>
 
-              <h2 className="text-[42px] font-extrabold font-cormantThiner ">
+              <h2 className="text-[35px]  font-popins uppercase">
                 Achieving the Best Interiors in Kerala
               </h2>
               <p className="mt-5 text-justify text-black font-extrabold text-[18px] font-cormantThiner">
@@ -632,7 +633,7 @@ const Homepage = () => {
               </p>
               <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly">
                 <Link to={"Contact-us"}>
-                  <button className="text-white uppercase font-cormantThiner">
+                  <button className="text-white uppercase font-cormantThiner mt-1">
                     Contact Us
                   </button>
                 </Link>
