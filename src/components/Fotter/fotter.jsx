@@ -129,7 +129,7 @@ const Footer = () => {
                         <li className="flex ">
                           <FaLocationDot className="mt-1 text-[25px] mr-4 text-red-600" />
                           <span className="text-justify">
-                            Inddeore Interio (Branch) Near Roman Catholic Church
+                            Inddecore Interio (Branch) Near Roman Catholic Church
                             Viyyur-Thrissur 680010
                           </span>
                         </li>

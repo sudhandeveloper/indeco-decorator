@@ -42,8 +42,13 @@ const NavOne = () => {
         </div>
 
         {/* ------- */}
-        <div className=" h-[70px] max-md:h-auto bg-white max-md:pb-2  text-red-500 shadow-lg ">
-          <div className="w-full pt-3 md:hidden pl-[88%]">
+        <div className=" h-[70px] max-md:h-auto bg-white max-md:pb-2  text-red-500 shadow-lg relative">
+           <img
+                className="object-contain h-[60px] md:hidden pt-2"
+                src={LogoMain}
+                alt="loading"
+              />
+          <div className="w-full pt-3 md:hidden pl-[88%] absolute top-3 right-0 ">
             <div
               className="w-[100%] text-right text-[25px] text-black"
               onClick={clickerhandler}

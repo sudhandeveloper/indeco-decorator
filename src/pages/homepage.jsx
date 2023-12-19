@@ -130,11 +130,11 @@ const Homepage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Using Inddecore Interior to Create Kerala's Greatest Interiors
+          Using Inddecore Interio to Create Kerala's Greatest Interiors
         </title>
         <meta
           name="description"
-          content="Discover the art of interior design with Inddecore Interior, your one-stop destination for the best interiors in kerala. We transform your space into a haven of elegance and functionality. Explore our portfolio today!"
+          content="Discover the art of interior design with Inddecore Interio, your one-stop destination for the best interiors in kerala. We transform your space into a haven of elegance and functionality. Explore our portfolio today!"
         />
         <link rel="canonical" href="https://inddecoreinteriors.com/home" />
       </Helmet>
@@ -204,7 +204,7 @@ const Homepage = () => {
             </p>
             <p className="mt-5 text-center text-[26px] px-36 font-cormantThiner max-lg:px-14 max-md:px-10 max-sm:px-1">
               <h3>
-                At Inddecore Interior, we are dedicated to redefining interior
+                At Inddecore Interio, we are dedicated to redefining interior
                 spaces, making them more functional, beautiful, and reflective
                 of your unique style. With a commitment to excellence and a team
                 of passionate designers, we have earned a reputation as the best
@@ -262,17 +262,17 @@ const Homepage = () => {
 
                 <div className="w-full h-[75%] px-16 py-16 max-sm:px-6 bg-white ">
                   <h2 className="uppercase tracking-widest text-[22px] text-gray-500">
-                    MEET INDDECORE INTERIOR
+                    MEET INDDECORE INTERIO
                   </h2>
                   <p className="text-[26px]  tracking-wider font-medium text-red-600">
                     TALENTED DESIGNERS WITH US
                   </p>
                   <p className="text-justify font-extrabold text-[18px] text-gray-800  font-cormantThiner">
                     Experience the finest interior design in Kerala with
-                    Inddecore Interior. We are the ultimate choice for creating
+                    Inddecore Interio. We are the ultimate choice for creating
                     the best interiors in Kerala, transforming your spaces into
                     masterpieces. Explore our services and portfolio now.
-                    Inddecore Interior is your trusted partner in the world of
+                    Inddecore Interio is your trusted partner in the world of
                     interior design, dedicated to redefining living spaces
                     throughout the picturesque landscapes of Kerala. With a
                     passion for excellence and a team of talented designers,
@@ -302,8 +302,8 @@ const Homepage = () => {
                     Residential Interiors
                   </h2>
                   <p className="text-white font-cormantThiner">
-                    Get the Best Residential Interior Designers in Chennai.
-                    Check Our Latest Works Here.
+                    Get the Best Residential Interior Designers in kerala. Check
+                    Our Latest Works Here.
                   </p>
                 </div>
               </div>
@@ -323,8 +323,8 @@ const Homepage = () => {
                     Corporate Interiors
                   </h2>
                   <p className="text-white font-cormantThiner">
-                    Get the Best Residential Interior Designers in Chennai.
-                    Check Our Latest Works Here.
+                    Get the Best Residential Interior Designers in kerala. Check
+                    Our Latest Works Here.
                   </p>
                 </div>
               </div>
@@ -343,8 +343,8 @@ const Homepage = () => {
                     Commercial Interiors
                   </h2>
                   <p className="text-white font-cormantThiner">
-                    Get the Best Residential Interior Designers in Chennai.
-                    Check Our Latest Works Here.
+                    Get the Best Residential Interior Designers in kerala. Check
+                    Our Latest Works Here.
                   </p>
                 </div>
               </div>
@@ -603,7 +603,7 @@ const Homepage = () => {
             <div>
               <p className="font-cormantThiner  text-black font-extrabold text-[35px] text-center max-md:text-[30px]">
                 Design dreams made into reality and Design with passion. Your
-                personality, with our Inddecore interior expertise.
+                personality, with our Inddecore interio expertise.
               </p>
               <center>
                 <div className="lg:w-[24%]  max-sm:w-[74%] md:w-[40%] max-md:w-[40%]  bg-red-600  mt-10 flex justify-evenly text-[20px] pt-2 pb-2">
@@ -639,14 +639,14 @@ const Homepage = () => {
                 Achieving the Best Interiors in Kerala
               </h2>
               <p className="mt-5 text-justify text-black font-extrabold text-[18px] font-cormantThiner">
-                Inddecore Interior has been honored with prestigious awards for
+                Inddecore Interio has been honored with prestigious awards for
                 our exceptional interior design work. Our commitment to
                 innovative, high-quality designs has earned us the respect of
                 both clients and industry peers. We specialize in creating
                 bespoke interior solutions that cater to the unique tastes and
                 needs of our clients. Our remarkable achievements are a
                 testament to our dedication to delivering personalized and
-                exceptional designs. At Inddecore Interior, we believe that
+                exceptional designs. At Inddecore Interio, we believe that
                 quality is paramount.
               </p>
               <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly">
@@ -657,16 +657,17 @@ const Homepage = () => {
                 </Link>
                 <BsArrowRight className="font-bold text-[35px] text-white " />
               </div>
-             
             </div>
 
             <div className="w-[60%] pt-10 max-lg:w-full rounded-xl  ">
               <div className="relative">
                 <video ref={videoRef} src={VedioOne} controls={!isPlaying} />
 
-                <button onClick={handlePlayPause} className="absolute text-[35px] p-6 text-white left-[43%] top-40 max-sm:top-20 ">
-                  {isPlaying ? <FaPause />  : <FaPlay />}
-                
+                <button
+                  onClick={handlePlayPause}
+                  className="absolute text-[35px] p-6 text-white left-[43%] top-40 max-sm:top-20 "
+                >
+                  {isPlaying ? <FaPause /> : <FaPlay />}
                 </button>
               </div>
               {/* <ul className="flex justify-evenly ">
@@ -762,7 +763,7 @@ const Homepage = () => {
                           <BiSolidQuoteLeft className="text-[102px] text-[#c7993d]" />
                         </p>
                         <p className="text-[18px] max-md:text-[20px] text-black font-cormantThiner text-justify">
-                          1. " Thanks to Inddecore Interior, my house became the
+                          1. " Thanks to Inddecore Interio, my house became the
                           home of my dreams. Their attention to detail and
                           innovative design ideas are truly remarkable. From the
                           initial consultation to the final execution, the
@@ -809,7 +810,7 @@ const Homepage = () => {
                           <BiSolidQuoteLeft className="text-[102px] text-[#c7993d]" />
                         </p>
                         <p className="text-[18px] max-md:text-[20px] text-black font-cormantThiner text-justify">
-                          2. " It was a pleasure working with Inddecore Interior
+                          2. " It was a pleasure working with Inddecore Interio
                           on my workspace, and I'm really pleased with the
                           outcome. I was astonished by the team's exceptional
                           originality and professionalism. They succeeded in
@@ -857,7 +858,7 @@ const Homepage = () => {
                           <BiSolidQuoteLeft className="text-[102px] text-[#c7993d]" />
                         </p>
                         <p className="text-[18px] max-md:text-[20px] text-black font-cormantThiner text-justify">
-                          3. "Inddecore Interior's commitment to quality is
+                          3. "Inddecore Interio's commitment to quality is
                           outstanding. They transformed my retail space into an
                           inviting and visually stunning environment. I was
                           impressed by their ability to capture the essence of

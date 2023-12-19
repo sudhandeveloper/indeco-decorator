@@ -30,7 +30,7 @@ const Corporate = () => {
           href="https://inddecoreinteriors.com/corporate-interior"
         />
       </Helmet>
-      
+
       <section>
         <div className="relative h-96 max-md:h-[500px]">
           <img
@@ -42,8 +42,9 @@ const Corporate = () => {
           <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
           <div className="absolute top-0 z-10 w-full h-auto px-10 pt-20 max-sm:px-3">
-            <h2 className=" text-white text-thirtyfivepixls  font-popins ">
-            KERALA-BASED INDDECORE INTERIOR CREATES CORPORATE OFFICE INTERIORS.
+            <h2 className=" text-white text-thirtyfivepixls max-sm:text-[30px] font-popins ">
+              KERALA-BASED INDDECORE INTERIOR CREATES CORPORATE OFFICE
+              INTERIORS.
             </h2>
             <h2 className=" text-white text-thirtyfivepixls  font-popins ">
               INDDECORE INTERIO
@@ -59,20 +60,25 @@ const Corporate = () => {
       {/* ========================== Best Residential Interior Designers in Chennai ============= */}
       <section>
         <div className="mt-10">
-          <h2 className="text-thirtyfivepixls max-md:px-5 max-md:text-[25px] text-center text-red-600    font-popins ">
-          DESIGNERS FOR CORPORATE OFFICE INTERERIORS
+          <h2 className="text-thirtyfivepixls max-sm:text-[23px]  max-md:px-5 max-md:text-[25px] md:text-center text-red-600  uppercase  font-popins ">
+            DESIGNERS FOR CORPORATE OFFICE interior
           </h2>
 
-          <h2 className=" max-lg:px-10 max-sm:text-[30px] text-[30px]  uppercase max-sm:px-6 max-lg:text-[25px] px-20  font-popins text-center text-gray-600   ">
-          WE BELIEVES IN HARMONIZING YOUR CORPORATE IDENTITY WITH THE NATURAL BEAUTY OF KERALA'S SURROUNDINGS.
+          <h2 className=" max-lg:px-10 max-md:text-justify text-[30px] max-sm:text-[18px] uppercase max-sm:px-6 max-lg:text-[25px] px-20  font-popins text-center text-gray-600   ">
+            WE BELIEVES IN HARMONIZING YOUR CORPORATE IDENTITY WITH THE NATURAL
+            BEAUTY OF KERALA'S SURROUNDINGS.
           </h2>
 
           <center>
             <div className="w-36 h-[2px] mt-5 bg-red-600"></div>
           </center>
 
-          <p className="px-16 mt-5 font-bold text-center text-[25px] text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
-          Inddecore Interior brings to your corporate office the perfect blend of creative vision and technical expertise. We are dedicated to creating workspaces that go beyond aesthetics, contributing to your business's growth. ensuring that your office not only looks impressive but also enhances the overall work experience.
+          <p className="px-16 mt-5 font-bold max-md:text-justify text-[25px] max-sm:text-[20px]  text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
+            Inddecore Interior brings to your corporate office the perfect blend
+            of creative vision and technical expertise. We are dedicated to
+            creating workspaces that go beyond aesthetics, contributing to your
+            business's growth. ensuring that your office not only looks
+            impressive but also enhances the overall work experience.
           </p>
         </div>
       </section>

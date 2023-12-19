@@ -42,7 +42,7 @@ const Aboutus = () => {
           <div className="absolute bottom-0 justify-end w-full h-full pt-48 font-popins">
             <div className="h-1 mb-3 ml-5 bg-white rounded-full max-sm:ml-3 max-sm:w-56 w-96"></div>
             <h2 className="pl-5 text-white uppercase text-thirtyfivepixls max-sm:pl-3 ">
-              Indddecore Interio <br /> Designer.
+              Inddecore Interio <br /> Designer.
             </h2>
           </div>
         </div>
@@ -52,16 +52,16 @@ const Aboutus = () => {
           <div className="flex gap-5 px-16 mb-5 max-md:flex-col max-md:px-6 ">
             <div className="w-[40%] max-md:w-full pt-16">
               <h2 className="uppercase font-cormantThiner">About company</h2>
-              <h2 className="mt-10  text-thirtyfivepixls font-popins">
+              <h2 className="mt-10  sm:text-thirtyfivepixls font-popins">
                 RECOGNIZED <br /> INTERIOR & EXTERIOR <br />
                 <span className="font-medium text-[30px] text-red-600 uppercase">
-                  Indddecore Interio
+                  Inddecore Interio
                 </span>
               </h2>
 
               <div className="h-[1px] bg-black border-dotted w-[100%] mt-10"></div>
 
-              <p className="mt-10 text-[22px] font-extrabold text-justify text-black font-cormantThiner">
+              <p className="mt-10 sm:text-[22px] font-extrabold text-justify text-black font-cormantThiner">
                 Experience the finest interior design in Kerala with Inddecore
                 Interior. We are the ultimate choice for creating the best
                 interiors in Kerala, transforming your spaces into masterpieces.
@@ -97,10 +97,10 @@ const Aboutus = () => {
               <h2 className="mb-3 italic font-cormantThiner">
                 We can help you to
               </h2>
-              <h2 className="text-thirtyfivepixls font-extralight font-popins">
+              <h2 className="sm:text-thirtyfivepixls max-sm:text-[17px] font-extralight font-popins">
                 CONSTRUCTING YOUR IDEAL HOME
               </h2>
-              <p className="mt-2 font-extrabold text-[18px] text-justify text-black font-cormantThiner">
+              <p className="mt-2 font-extrabold sm:text-[18px] text-justify text-black font-cormantThiner">
                 At Inddecore Interior, we're more than just builders, we're
                 dream weavers. Our team is committed to crafting homes that
                 embody your unique style and needs. Learn about our mission,
@@ -121,10 +121,10 @@ const Aboutus = () => {
           </div>
 
           <div className="mt-20">
-            <h2 className="text-center text-[30px] italic text-red-600">
+            <h2 className="sm:text-center text-[30px]  max-sm:text-[20px] italic text-red-600">
               EXPLORE OUR COMPREHENSIVE HOME CONSTRUCTION SERVICES.
             </h2>
-            <h2 className="text-center text-[35px] uppercase font-popins  text-gray-600  mb-8">
+            <h2 className="sm:text-center md:text-[35px] max-sm:mt-3 uppercase font-popins  text-gray-600  mb-8">
               STAY UPDATED WITH THE LATEST TRENDS IN INTERIOR DESIGN AND HOME
               CONSTRUCTION
             </h2>
@@ -164,7 +164,7 @@ const Aboutus = () => {
           <h2 className="italic text-[30px] text-center text-red-600">
             Designing the future
           </h2>
-          <h2 className="mt-3 text-center text-gray-600 uppercase  text-thirtyfivepixls font-popins">
+          <h2 className="mt-3 text-center text-gray-600 uppercase  sm:text-thirtyfivepixls font-popins">
             Why To Choose Us?
           </h2>
           <center>
@@ -207,7 +207,7 @@ const Aboutus = () => {
                 <Whychooseus
                   h2={<BsEmojiSmile />}
                   heading="Happy Customers"
-                  para="We have finished more than 2569+ luxury villas and commercial projects. so our workers are very well organised team to deliver good models to you."
+                  para="We have finished  luxury villas and comercial projects. so our workers are very well organised team to deliver good models to you."
                 />
               </div>
             </div>

@@ -53,7 +53,7 @@ const Contact = () => {
             <div>
               <ul>
                 <li className="text-[25px] text-white font-cormantThiner">
-                  Hours : All Days - 10am to 9pm
+                  Hours : All Days - 10am to 2pm
                 </li>
                 <li className="text-[25px] text-white font-cormantThiner">
                   Call: +91 9633461561
@@ -89,14 +89,14 @@ const Contact = () => {
                 Our Achievements
               </h2>
               <p className="mt-5 text-justify text-[18px] font-semibold text-black font-cormantThiner">
-                Inddecore Interior has been honored with prestigious awards for
+                Inddecore Interio has been honored with prestigious awards for
                 our exceptional interior design work. Our commitment to
                 innovative, high-quality designs has earned us the respect of
                 both clients and industry peers. We specialize in creating
                 bespoke interior solutions that cater to the unique tastes and
                 needs of our clients. Our remarkable achievements are a
                 testament to our dedication to delivering personalized and
-                exceptional designs. At Inddecore Interior, we believe that
+                exceptional designs. At Inddecore Interio, we believe that
                 quality is paramount.
               </p>
               {/* <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-red-600  mt-10 flex justify-evenly">
