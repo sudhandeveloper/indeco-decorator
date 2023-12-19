@@ -44,7 +44,25 @@ import { AiFillHome } from "react-icons/ai";
 import { FaTruck } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+import VedioOne from "../assets/vedios/WhatsApp Video 2023-12-18 at 08.15.11_3b9bdb7c.mp4";
+import { useRef, useState } from "react";
+import { FaPlay } from "react-icons/fa";
+import { FaPause } from "react-icons/fa6";
 const Homepage = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handlePlayPause = () => {
+    setIsPlaying(!isPlaying); // Update state on click
+    if (isPlaying) {
+      videoRef.current.pause(); // Pause video if playing
+    } else {
+      videoRef.current.play(); // Play video if paused
+    }
+  };
+
+  const videoRef = useRef(null);
+
+  // =================
   const setingOne = {
     dots: true,
     horizontal: false,
@@ -639,10 +657,19 @@ const Homepage = () => {
                 </Link>
                 <BsArrowRight className="font-bold text-[35px] text-white " />
               </div>
+             
             </div>
 
-            <div className="w-[60%] pt-24 max-lg:w-full rounded-xl  ">
-              <ul className="flex justify-evenly ">
+            <div className="w-[60%] pt-10 max-lg:w-full rounded-xl  ">
+              <div className="relative">
+                <video ref={videoRef} src={VedioOne} controls={!isPlaying} />
+
+                <button onClick={handlePlayPause} className="absolute text-[35px] p-6 text-white left-[43%] top-40  ">
+                  {isPlaying ? <FaPause />  : <FaPlay />}
+                
+                </button>
+              </div>
+              {/* <ul className="flex justify-evenly ">
                 <li>
                   <div>
                     <h2 className="text-[50px] max-sm:text-[30px] font-semibold flex">
@@ -684,7 +711,7 @@ const Homepage = () => {
                     <h2 className="font-semibold text-red-600">Awards</h2>
                   </div>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </section>

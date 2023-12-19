@@ -4,7 +4,22 @@ import ContactUs from "../assets/images/Contact-us/image-four.jpg";
 import Contacts from "../components/email";
 import { Helmet } from "react-helmet";
 // import { Link } from "react-router-dom";
+import VedioOne from "../assets/vedios/WhatsApp Video 2023-12-18 at 08.15.11_3b9bdb7c.mp4";
+import { useRef, useState } from "react";
+import { FaPlay } from "react-icons/fa";
+import { FaPause } from "react-icons/fa6";
 const Contact = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handlePlayPause = () => {
+    setIsPlaying(!isPlaying); // Update state on click
+    if (isPlaying) {
+      videoRef.current.pause(); // Pause video if playing
+    } else {
+      videoRef.current.play(); // Play video if paused
+    }
+  };
+  const videoRef = useRef(null);
   return (
     <>
       <Helmet>
@@ -41,7 +56,7 @@ const Contact = () => {
                   Hours : All Days - 10am to 9pm
                 </li>
                 <li className="text-[25px] text-white font-cormantThiner">
-                  Call: +91 96334 61561
+                  Call: +91 9633461561
                 </li>
                 <li className="text-[25px] text-white font-cormantThiner">
                   Book a free consultation with one of our Expert designers!
@@ -96,8 +111,17 @@ const Contact = () => {
               </div> */}
             </div>
 
-            <div className="w-[60%] pt-24 max-lg:w-full rounded-xl  ">
-              <ul className="flex justify-evenly ">
+            <div className="w-[60%]  max-lg:w-full rounded-xl  ">
+              <center>  <div className="relative">
+                <video ref={videoRef} src={VedioOne} controls={!isPlaying} className="h-96"/>
+
+                <button onClick={handlePlayPause} className="absolute text-[35px] p-6 text-white left-[43%] top-40  ">
+                  {isPlaying ? <FaPause />  : <FaPlay />}
+                
+                </button>
+              </div> </center>
+          
+              {/* <ul className="flex justify-evenly ">
                 <li>
                   <div>
                     <h2 className="text-[50px] max-sm:text-[30px] font-semibold flex">
@@ -139,7 +163,7 @@ const Contact = () => {
                     <h2 className="font-semibold text-red-600">Awards</h2>
                   </div>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </section>

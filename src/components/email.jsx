@@ -39,7 +39,7 @@ const SendEmailForm = () => {
               For Any Inquiries Please Call
             </h2>
             <h2 className="mt-4 text-[25px]  text-red-500">
-              <a href="tel:+919943106789">+919943106789</a>
+              <a href="tel:+919633461561">+91 96334 61561</a>
             </h2>
 
             <div className="w-48 h-[2px] mt-5 max-lg:w-full bg-white rounded-full"></div>

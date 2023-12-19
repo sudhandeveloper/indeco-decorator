@@ -113,7 +113,7 @@ const Footer = () => {
                       <ul className="mt-2 font-medium text-black font-Barlow">
                         <li className="flex ">
                           <BsFillTelephoneForwardFill className="mt-1 mr-4 text-red-600" />
-                          <span className=""> +91 98418 33554</span>
+                          <span className=""> +91 96334 61561</span>
                         </li>
                         <li className="flex ">
                           <BiLogoGmail className="mt-1 mr-4 text-red-600" />
