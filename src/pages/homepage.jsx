@@ -229,7 +229,7 @@ const Homepage = () => {
         <section>
           <div className="pt-10 pb-1 bg-gray-200">
             <div className="">
-              <h1 className="text-center  font-normal max-md:text-[50px] text-gray-500 tracking-wider  uppercase text-thirtyfivepixls font-popins ">
+              <h1 className="text-center  font-normal  text-gray-500 tracking-wider  uppercase text-thirtyfivepixls font-popins ">
                 About{" "}
                 <span className="font-normal tracking-wider text-red-600 ">
                   {" "}
@@ -251,7 +251,7 @@ const Homepage = () => {
 
               <div className="w-[50%] max-lg:w-full  h-auto ">
                 <div className="h-[25%] text-center pt-5">
-                  <h1 className="font-normal tracking-wider text-center text-gray-500 uppercase font-popins text-thirtyfivepixls">
+                  <h1 className="font-normal tracking-wider text-center  text-gray-500 uppercase font-popins text-thirtyfivepixls">
                     <span className="text-red-600 font-popins">
                       {" "}
                       Inddecore{" "}
@@ -664,7 +664,7 @@ const Homepage = () => {
               <div className="relative">
                 <video ref={videoRef} src={VedioOne} controls={!isPlaying} />
 
-                <button onClick={handlePlayPause} className="absolute text-[35px] p-6 text-white left-[43%] top-40  ">
+                <button onClick={handlePlayPause} className="absolute text-[35px] p-6 text-white left-[43%] top-40 max-sm:top-20 ">
                   {isPlaying ? <FaPause />  : <FaPlay />}
                 
                 </button>
