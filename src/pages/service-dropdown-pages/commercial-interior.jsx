@@ -67,7 +67,7 @@ const Commercial = () => {
             DESIGNERS FOR COMMERCIAL INTERIOR
           </h2>
 
-          <h2 className="text-thirtyfivepixls font-popins uppercase max-lg:px-20 max-sm:text-[30px] max-sm:px-6 max-lg:text-[45px] px-32  text-center text-gray-600   ">
+          <h2 className="sm:text-thirtyfivepixls font-popins uppercase max-lg:px-20  max-sm:px-6  px-32  text-center text-gray-600   ">
             WE ARE DEDICATED TO CREATING COMMERCIAL SPACES FOR YOUR BUSINESS'S
             GROWTH
           </h2>
@@ -76,7 +76,7 @@ const Commercial = () => {
             <div className="w-36 h-[2px] mt-5 bg-red-600"></div>
           </center>
 
-          <p className="px-16 mt-5 font-bold text-center text-[25px] text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
+          <p className="px-16 mt-5 font-bold text-justify sm:text-center text-[25px] text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
             Inddecore Interior welcomes you to an exciting realm of commercial
             interior design, where innovation, functionality, and aesthetics
             converge to create inspiring workspaces in the enchanting backdrop

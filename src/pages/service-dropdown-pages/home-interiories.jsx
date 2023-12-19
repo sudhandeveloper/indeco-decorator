@@ -64,11 +64,11 @@ const HomeInterior = () => {
       {/* ========================== Best Residential Interior Designers in Chennai ============= */}
       <section>
         <div className="mt-10">
-          <h2 className="text-thirtyfivepixls max-md:px-5 max-md:text-[25px] text-center text-red-600 font-medium   font-popins ">
+          <h2 className="text-thirtyfivepixls max-md:px-5 max-md:text-[25px] sm:text-center text-red-600 font-medium   font-popins ">
             DESIGNERS FOR HOME INTERIOR
           </h2>
 
-          <h2 className="text-thirtyfivepixls  font-popins uppercase max-lg:px-20 max-sm:text-[30px] max-sm:px-6 max-lg:text-[40px] px-56  text-center text-gray-600   ">
+          <h2 className="md:text-thirtyfivepixls text-[20px] font-popins uppercase max-lg:px-20  max-sm:px-6  px-56  sm:text-center text-gray-600   ">
             WE UNDERSTANDS THAT YOUR HOME YOUR PERSONALITY AND TASTE.
           </h2>
 
@@ -76,7 +76,7 @@ const HomeInterior = () => {
             <div className="w-36 h-[2px] mt-5 bg-red-600"></div>
           </center>
 
-          <p className="px-16 mt-5 font-bold text-center text-[22px] text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
+          <p className="px-16 mt-5 font-bold text-justify sm:text-center text-[22px] text-gray-600 max-md:px-10 max-sm:px-6 font-cormantThiner">
             Our "Home Interior" services go beyond mere design, we breathe life
             into your ideas, enhancing your living spaces with meticulous
             planning, artful craftsmanship, and an unwavering commitment to
