@@ -89,7 +89,7 @@ const Gallary = () => {
             <img className='w-full rounded' src='https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt="loading"/>
             <img className='w-full rounded' src='https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt="loading"/>
 
-            <img src={GallaeyImageOne} alt="" />
+            <img src={GallaeyImageOne} alt="loading" />
               {/* <GallaryComponent img={} /> */}
 
               <GallaryComponent img={GallaeyImageTwo} />

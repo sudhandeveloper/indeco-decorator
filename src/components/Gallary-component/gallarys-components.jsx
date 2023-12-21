@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-const GallariesCompo = props => {
+const GallariesCompo = (props) => {
   return (
     <>
-       <section>
+      <section>
         <div className="relative w-auto h-auto Baner-black-white">
           <img
             className="object-cover h-[350px] w-full"
@@ -16,15 +16,12 @@ const GallariesCompo = props => {
               <h2 className="text-white font-cormantThiner font-extrabold text-[35px]">
                 {props.heading}
               </h2>
-
             </div>
           </div>
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-
-
-export default GallariesCompo
+export default GallariesCompo;
