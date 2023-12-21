@@ -4,7 +4,7 @@ import 'lightbox.js-react/dist/index.css'
 import {SlideshowLightbox,} from 'lightbox.js-react'
 
 import Gallarybanner from "../assets/images/gallary/Gallary-image-banner.jpg";
-import GallaryComponent from "../components/Gallary-component/gallarys-components";
+// import GallaryComponent from "../components/Gallary-component/gallarys-components";
 
 import GallaeyImageOne from "../assets/images/gallary/1-min.jpg";
 import GallaeyImageTwo from "../assets/images/gallary/2-min.jpg";
