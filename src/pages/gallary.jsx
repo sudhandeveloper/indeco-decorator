@@ -85,14 +85,28 @@ const Gallary = () => {
         <section className="py-6 ">
           <div className="container flex flex-col justify-center p-4 mx-auto">
             <SlideshowLightbox className="grid grid-cols-1 gap-4 lg:grid-cols-2 sm:grid-cols-2">
-            <img className='w-full rounded' src='https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt="loading"/>
-            <img className='w-full rounded' src='https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt="loading"/>
-            <img className='w-full rounded' src='https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt="loading"/>
+     
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageOne} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageTwo} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageThree} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageFour} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageFive} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageSix} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageSeven} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageEight} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageNine} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageEleven} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageTwelve} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageThirteen} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageFourtheen} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageSixteen} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageSeventeen} alt="loading" />
+            <img  className="object-cover h-[350px] w-full" src={GallaeyImageEighteen} alt="loading" />
+   
 
-            <img src={GallaeyImageOne} alt="loading" />
               {/* <GallaryComponent img={} /> */}
 
-              <GallaryComponent img={GallaeyImageTwo} />
+              {/* <GallaryComponent img={GallaeyImageTwo} />
 
               <GallaryComponent img={GallaeyImageThree} />
 
@@ -122,7 +136,7 @@ const Gallary = () => {
 
               <GallaryComponent img={GallaeyImageEight} />
 
-              <GallaryComponent img={GallaeyImageEighteen} />
+              <GallaryComponent img={GallaeyImageEighteen} /> */}
             </SlideshowLightbox>
           </div>
         </section>
