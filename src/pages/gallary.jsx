@@ -1,7 +1,7 @@
 import React from "react";
 
 import 'lightbox.js-react/dist/index.css'
-import {SlideshowLightbox, initLightboxJS} from 'lightbox.js-react'
+import {SlideshowLightbox,} from 'lightbox.js-react'
 
 import Gallarybanner from "../assets/images/gallary/Gallary-image-banner.jpg";
 import GallaryComponent from "../components/Gallary-component/gallarys-components";
@@ -85,9 +85,9 @@ const Gallary = () => {
         <section className="py-6 ">
           <div className="container flex flex-col justify-center p-4 mx-auto">
             <SlideshowLightbox className="grid grid-cols-1 gap-4 lg:grid-cols-2 sm:grid-cols-2">
-            <img className='w-full rounded' src='https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' />
-            <img className='w-full rounded' src='https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' />
-            <img className='w-full rounded' src='https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' />
+            <img className='w-full rounded' src='https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt="loading"/>
+            <img className='w-full rounded' src='https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt="loading"/>
+            <img className='w-full rounded' src='https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt="loading"/>
 
             <img src={GallaeyImageOne} alt="" />
               {/* <GallaryComponent img={} /> */}
