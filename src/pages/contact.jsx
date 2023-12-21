@@ -53,7 +53,7 @@ const Contact = () => {
             <div>
               <ul>
                 <li className="text-[25px] text-white font-cormantThiner">
-                  Hours : All Days - 10am to 2pm
+                  Hours : All Days - 10am to 6pm
                 </li>
                 <li className="text-[25px] text-white font-cormantThiner">
                   Call: +91 9633461561

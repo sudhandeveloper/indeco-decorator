@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import HomeInteriorBannerImage from "../../assets/images/Services-images/Home-interior-images/Home-Interior-image.jpg";
 
 import One from "../../assets/images/Services-images/Home-interior-images/One.jpg";
@@ -14,7 +14,15 @@ import Utility from "../../assets/images/Services-images/Home-interior-images/ut
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+
+// Import your asset images
+
+const images = [One, Cards, BedRoom];
 const HomeInterior = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <>
       <Helmet>
@@ -115,6 +123,31 @@ const HomeInterior = () => {
           </div>
         </section>
       </section>
+
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 sm:grid-cols-2">
+        {" "}
+        {/* Grid applied to the entire image gallery */}
+        {images.map((image, index) => (
+          <div key={index}>
+            {" "}
+            {/* Wrap each image in a div for grid item */}
+            <img
+              src={image}
+              alt={`Image ${index + 1}`}
+              onClick={() => {
+                setOpen(true);
+                Lightbox.current && Lightbox.current.goToSlide(index);
+              }}
+            />
+          </div>
+        ))}
+      </div>
+
+      <Lightbox
+        open={open}
+        close={() => setOpen(false)}
+        slides={images.map((image) => ({ src: image }))}
+      />
     </>
   );
 };

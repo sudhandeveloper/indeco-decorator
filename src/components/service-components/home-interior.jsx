@@ -6,7 +6,7 @@ const HomeInteriorscomponents = (props) => {
       <section>
         <div className="relative w-auto h-auto Baner-black-white">
           <img
-            className="object-cover h-[350px]"
+            className="object-cover w-full h-[350px]"
             src={props.img}
             alt="loading"
           />
