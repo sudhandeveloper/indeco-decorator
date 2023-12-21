@@ -94,60 +94,52 @@ const HomeInterior = () => {
           </p>
         </div>
 
+        {/* <Cards img={One} heading="Modular Kitchen" />
+
+<Cards img={BedRoom} heading="Bed Room" />
+
+<Cards img={Wardboard} heading="wardrobes and loft" />
+
+<Cards img={LivingRoom} heading="Living Room" />
+
+<Cards img={Bathroom} heading="Bath Room" />
+
+<Cards img={PoojaRoom} heading="Pooja Room " />
+
+<Cards img={KidsRoom} heading="Kids Room" />
+
+<Cards img={Cocakary} heading="Crockery Unit" />
+
+<Cards img={Utility} heading="Utility Area Space" /> */}
         {/* ====================================================================== */}
         <section>
           <div className="px-16 mt-16 max-md:px-6">
             <section className="py-6">
               <div className="container flex flex-col justify-center p-4 mx-auto">
                 <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 sm:grid-cols-2">
-                  <Cards img={One} heading="Modular Kitchen" />
+                  {images.map((image, index) => (
+                    <img
+                      key={index}
+                      src={image}
+                      alt={`Image ${index + 1}`}
+                      onClick={() => {
+                        setOpen(true);
+                        Lightbox.current && Lightbox.current.goToSlide(index);
+                      }}
+                    />
+                  ))}
 
-                  <Cards img={BedRoom} heading="Bed Room" />
-
-                  <Cards img={Wardboard} heading="wardrobes and loft" />
-
-                  <Cards img={LivingRoom} heading="Living Room" />
-
-                  <Cards img={Bathroom} heading="Bath Room" />
-
-                  <Cards img={PoojaRoom} heading="Pooja Room " />
-
-                  <Cards img={KidsRoom} heading="Kids Room" />
-
-                  <Cards img={Cocakary} heading="Crockery Unit" />
-
-                  <Cards img={Utility} heading="Utility Area Space" />
+                  <Lightbox
+                    open={open}
+                    close={() => setOpen(false)}
+                    slides={images.map((image) => ({ src: image }))}
+                  />
                 </div>
               </div>
             </section>
           </div>
         </section>
       </section>
-
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 sm:grid-cols-2">
-        {" "}
-        {/* Grid applied to the entire image gallery */}
-        {images.map((image, index) => (
-          <div key={index}>
-            {" "}
-            {/* Wrap each image in a div for grid item */}
-            <img
-              src={image}
-              alt={`Image ${index + 1}`}
-              onClick={() => {
-                setOpen(true);
-                Lightbox.current && Lightbox.current.goToSlide(index);
-              }}
-            />
-          </div>
-        ))}
-      </div>
-
-      <Lightbox
-        open={open}
-        close={() => setOpen(false)}
-        slides={images.map((image) => ({ src: image }))}
-      />
     </>
   );
 };
