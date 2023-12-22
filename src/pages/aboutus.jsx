@@ -12,7 +12,6 @@ import { FaRegHandshake } from "react-icons/fa";
 import { BsEmojiSmile } from "react-icons/bs";
 
 import { BiLogoFacebook } from "react-icons/bi";
-import { AiOutlineTwitter } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 
 import { Helmet } from "react-helmet";
