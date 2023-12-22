@@ -84,16 +84,16 @@ const NavOne = () => {
                     <div className="py-3 pl-2 pr-2 mt-8 bg-white rounded-md max-md:mt-2 innerserviceitem ">
                       <ul>
                         <li className="pb-2 he border-b-[1px] border-b-gray-100">
-                          <Link to={"Home-interiories"}> Home Interiors </Link>
+                          <Link to={"Home-interiories"}> Home interiors </Link>
                         </li>
                         <li className="pb-2 he pt-2 border-b-[1px] border-b-gray-100">
                           <Link to={"Commercial-interior"}>
-                            Commercisal Interios{" "}
+                            Commercisal interiors{" "}
                           </Link>
                         </li>
                         <li className="pt-2 he border-b-[1px] border-b-gray-100">
                           <Link to={"Corporate-interior"}>
-                            Corporate Office Intereriors{" "}
+                            Corporate Office interiors{" "}
                           </Link>
                         </li>
                       </ul>
