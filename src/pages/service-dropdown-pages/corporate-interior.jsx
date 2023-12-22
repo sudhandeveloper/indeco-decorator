@@ -19,15 +19,15 @@ import "yet-another-react-lightbox/styles.css";
 const Corporate = () => {
 
   const images = [
-    { src: GlazingCladding, name: "Showrooms" },
-    { src: CabinPartitions, name: "BeaytyParlour" },
-    { src: OfficeFurniture, name: "Saloon" },
-    { src: OfficeFalseCeiling, name: "ReadymadeShops" },
-    { src: OfficeFlooring, name: " Car Showroom" },
-    { src: OfficeWallDesigns, name: "Bakery" },
-    { src: LightsArrangement, name: "Reasturent" },
-    { src: ReceptionArea, name: "RetailShowroom" },
-    { src: CafeteriaArea, name: "CorporateOffice" },
+    { src: GlazingCladding, name: "GlazingCladding" },
+    { src: CabinPartitions, name: "CabinPartitions" },
+    { src: OfficeFurniture, name: "OfficeFurniture" },
+    { src: OfficeFalseCeiling, name: "OfficeFalseCeiling" },
+    { src: OfficeFlooring, name: "OfficeFlooring" },
+    { src: OfficeWallDesigns, name: "OfficeWallDesigns" },
+    { src: LightsArrangement, name: "LightsArrangement" },
+    { src: ReceptionArea, name: "ReceptionArea" },
+    { src: CafeteriaArea, name: "CafeteriaArea" },
   ];
 
   const [open, setOpen] = useState(false);
