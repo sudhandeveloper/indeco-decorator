@@ -1,6 +1,6 @@
 import React from "react";
 import CommercialImage from "../../assets/images/Services-images/Commercial-image-interior/Commercial-image-three.jpg";
-import CommercialInteriorComponent from "../../components/service-components/commercal-interior";
+// import CommercialInteriorComponent from "../../components/service-components/commercal-interior";
 import Showroom from "../../assets/images/Services-images/Commercial-image-interior/Showroom.jpg";
 import BeaytyParlour from "../../assets/images/Services-images/Commercial-image-interior/Beauty-parlour.jpeg";
 import Saloon from "../../assets/images/Services-images/Commercial-image-interior/Saloon.jpg";
@@ -15,8 +15,26 @@ import Colleges from "../../assets/images/Services-images/Commercial-image-inter
 import SuperMarket from "../../assets/images/Services-images/Commercial-image-interior/Supermarket.jpg";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-
+import { useState } from "react";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 const Commercial = () => {
+  const images = [
+
+    { src: Showroom, name: "Showrooms" },
+    { src: BeaytyParlour, name: "BeaytyParlour" },
+    { src: Saloon, name: "Saloon" },
+    { src: ReadymadeShops, name: "ReadymadeShops" },
+    { src: Cardshowroom, name: " Car Showroom" },
+    { src: Bakery, name: "Bakery" },
+    { src: Reasturent, name: "Reasturent" },
+    { src: RetailShowroom, name: "RetailShowroom" },
+    { src: CorporateOffice, name: "CorporateOffice" },
+    { src: School, name: "School" },
+    { src: Colleges, name: "Colleges" },
+    { src: SuperMarket, name: "SuperMarket" },
+  ];
+  const [open, setOpen] = useState(false);
   return (
     <>
       {" "}
@@ -86,7 +104,7 @@ const Commercial = () => {
         </div>
 
         {/* ====================================================================== */}
-        <section>
+        {/* <section>
           <div className="px-16 mt-16 max-md:px-6">
             <section className="py-6">
               <div className="container flex flex-col justify-center p-4 mx-auto">
@@ -158,6 +176,54 @@ const Commercial = () => {
                     heading=" Supermarket"
                   />
                 </div>
+              </div>
+            </section>
+          </div>
+        </section> */}
+
+        <section>
+          <div className="px-16 mt-16 max-md:px-6">
+            <section className="py-6">
+
+              <div className="container flex flex-col justify-center p-4 mx-auto">
+                <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 sm:grid-cols-2">
+                  {images.map((image, index) => (
+
+                    <div key={index} className="relative">
+                      <div className="absolute top-0 z-10 w-full h-full bg-gray-800 opacity-40"></div>
+                      <img
+                        className="object-cover w-full h-[350px]"
+                        src={image.src}
+                        alt={image.name}
+                      />
+
+                      <div
+                        className="absolute top-0 z-20 w-full h-full pt-56 px-11"
+                        key={index}
+                        onClick={() => {
+                          
+                          setOpen(true);
+                          Lightbox.current && Lightbox.current.goToSlide(index);
+                        }}
+                      >
+
+                        <div className="h-[50%]">
+                          <h2 className="text-white font-cormantThiner font-extrabold text-[35px]">
+                            {image.name}
+                          </h2>
+                          <div className="w-20 h-1 mb-2 bg-red-600"></div>
+                        </div>
+
+                      </div>
+                    </div>
+                  ))}
+                  <Lightbox
+                    open={open}
+                    close={() => setOpen(false)}
+                    slides={images.map((image ) => ({ src: image.src }))}
+                  />
+                </div>
+                
               </div>
             </section>
           </div>

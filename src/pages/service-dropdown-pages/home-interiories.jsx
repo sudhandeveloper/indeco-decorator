@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import HomeInteriorBannerImage from "../../assets/images/Services-images/Home-interior-images/Home-Interior-image.jpg";
 
 import One from "../../assets/images/Services-images/Home-interior-images/One.jpg";
-import Cards from "../../components/service-components/home-interior";
+// import Newone from "../../components/service-components/home-interior";
 import BedRoom from "../../assets/images/Services-images/Home-interior-images/BedRoom.jpg";
 import Wardboard from "../../assets/images/Services-images/Home-interior-images/wardboard.jpg";
 import LivingRoom from "../../assets/images/Services-images/Home-interior-images/Livingroom.jpg";
@@ -19,7 +19,18 @@ import "yet-another-react-lightbox/styles.css";
 
 // Import your asset images
 
-const images = [One, Cards, BedRoom];
+const images = [
+  { src: One, name: "One" ,id:1},
+  { src: BedRoom, name: "Bedroom" ,id:2},
+  { src: Wardboard, name: "Wardboard" },
+  { src: LivingRoom, name: "Living Room" },
+  { src: Bathroom, name: "Bathroom" },
+  { src: PoojaRoom, name: "Pooja Room" },
+  { src: KidsRoom, name: "Kids Room" },
+  { src: Cocakary, name: "Cocakary" },
+  { src: Utility, name: "Utility" },
+];
+
 const HomeInterior = () => {
   const [open, setOpen] = useState(false);
 
@@ -111,30 +122,52 @@ const HomeInterior = () => {
 <Cards img={Cocakary} heading="Crockery Unit" />
 
 <Cards img={Utility} heading="Utility Area Space" /> */}
+
         {/* ====================================================================== */}
+
         <section>
           <div className="px-16 mt-16 max-md:px-6">
             <section className="py-6">
+
               <div className="container flex flex-col justify-center p-4 mx-auto">
                 <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 sm:grid-cols-2">
                   {images.map((image, index) => (
-                    <img
-                      key={index}
-                      src={image}
-                      alt={`Image ${index + 1}`}
-                      onClick={() => {
-                        setOpen(true);
-                        Lightbox.current && Lightbox.current.goToSlide(index);
-                      }}
-                    />
-                  ))}
 
+                    <div key={index} className="relative">
+                      <div className="absolute top-0 z-10 w-full h-full bg-gray-800 opacity-40"></div>
+                      <img
+                        className="object-cover w-full h-[350px]"
+                        src={image.src}
+                        alt={image.name}
+                      />
+
+                      <div
+                        className="absolute top-0 z-20 w-full h-full pt-56 px-11"
+                        key={index}
+                        onClick={() => {
+                          
+                          setOpen(true);
+                          Lightbox.current && Lightbox.current.goToSlide(index);
+                        }}
+                      >
+
+                        <div className="h-[50%]">
+                          <h2 className="text-white font-cormantThiner font-extrabold text-[35px]">
+                            {image.name}
+                          </h2>
+                          <div className="w-20 h-1 mb-2 bg-red-600"></div>
+                        </div>
+
+                      </div>
+                    </div>
+                  ))}
                   <Lightbox
                     open={open}
                     close={() => setOpen(false)}
-                    slides={images.map((image) => ({ src: image }))}
+                    slides={images.map((image ) => ({ src: image.src }))}
                   />
                 </div>
+                
               </div>
             </section>
           </div>
