@@ -88,7 +88,7 @@ const NavOne = () => {
                         </li>
                         <li className="pb-2 he pt-2 border-b-[1px] border-b-gray-100">
                           <Link to={"Commercial-interior"}>
-                            Commercisal interiors{" "}
+                            Commercial interiors{" "}
                           </Link>
                         </li>
                         <li className="pt-2 he border-b-[1px] border-b-gray-100">
