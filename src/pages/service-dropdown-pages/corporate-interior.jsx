@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import CorporateBannerImage from "../../assets/images/Services-images/corporate-interior-image/Corporate-image-banner.jpg";
-import CorporateInteriorComponent from "../../components/service-components/corporate-interior";
+// import CorporateInteriorComponent from "../../components/service-components/corporate-interior";
 
 import GlazingCladding from "../../assets/images/Services-images/corporate-interior-image/Glass-caddalling.jpg";
 import CabinPartitions from "../../assets/images/Services-images/corporate-interior-image/Cabins.jpg";
@@ -12,7 +12,25 @@ import LightsArrangement from "../../assets/images/Services-images/corporate-int
 import ReceptionArea from "../../assets/images/Services-images/corporate-interior-image/Reception-area.jpg";
 import CafeteriaArea from "../../assets/images/Services-images/corporate-interior-image/Cafeteria.jpg";
 import { Helmet } from "react-helmet";
+
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+
 const Corporate = () => {
+
+  const images = [
+    { src: GlazingCladding, name: "Showrooms" },
+    { src: CabinPartitions, name: "BeaytyParlour" },
+    { src: OfficeFurniture, name: "Saloon" },
+    { src: OfficeFalseCeiling, name: "ReadymadeShops" },
+    { src: OfficeFlooring, name: " Car Showroom" },
+    { src: OfficeWallDesigns, name: "Bakery" },
+    { src: LightsArrangement, name: "Reasturent" },
+    { src: ReceptionArea, name: "RetailShowroom" },
+    { src: CafeteriaArea, name: "CorporateOffice" },
+  ];
+
+  const [open, setOpen] = useState(false);
   return (
     <div>
       <Helmet>
@@ -84,7 +102,7 @@ const Corporate = () => {
       </section>
 
       {/* ====================================================================== */}
-      <section>
+      {/* <section>
         <div className="px-16 mt-16 max-md:px-6">
           <section className="py-6">
             <div className="container flex flex-col justify-center p-4 mx-auto">
@@ -148,7 +166,54 @@ const Corporate = () => {
             </div>
           </section>
         </div>
-      </section>
+      </section> */}
+         <section>
+          <div className="px-16 mt-16 max-md:px-6">
+            <section className="py-6">
+
+              <div className="container flex flex-col justify-center p-4 mx-auto">
+                <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 sm:grid-cols-2">
+                  {images.map((image, index) => (
+
+                    <div key={index} className="relative">
+                      <div className="absolute top-0 z-10 w-full h-full bg-gray-800 opacity-40"></div>
+                      <img
+                        className="object-cover w-full h-[350px]"
+                        src={image.src}
+                        alt={image.name}
+                      />
+
+                      <div
+                        className="absolute top-0 z-20 w-full h-full pt-56 px-11"
+                        key={index}
+                        onClick={() => {
+                          
+                          setOpen(true);
+                          Lightbox.current && Lightbox.current.goToSlide(index);
+                        }}
+                      >
+
+                        <div className="h-[50%]">
+                          <h2 className="text-white font-cormantThiner font-extrabold text-[35px]">
+                            {image.name}
+                          </h2>
+                          <div className="w-20 h-1 mb-2 bg-red-600"></div>
+                        </div>
+
+                      </div>
+                    </div>
+                  ))}
+                  <Lightbox
+                    open={open}
+                    close={() => setOpen(false)}
+                    slides={images.map((image ) => ({ src: image.src }))}
+                  />
+                </div>
+                
+              </div>
+            </section>
+          </div>
+        </section>
     </div>
   );
 };
