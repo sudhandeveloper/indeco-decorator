@@ -17,6 +17,8 @@ import { AiOutlineInstagram } from "react-icons/ai";
 
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+
+import { FaPhoneAlt } from "react-icons/fa";
 const Aboutus = () => {
   return (
     <>
@@ -232,19 +234,27 @@ const Aboutus = () => {
             <div className="w-full mt-10 max-sm:px-10">
               <ul className="flex w-full gap-5 max-sm:justify-between">
                 <li className="w-10 h-10 pt-[8px]  bg-red-500 rounded-full">
-                  <center>
-                    <BiLogoFacebook className="text-[25px] text-white" />
-                  </center>
+                  <a href="https://www.facebook.com/Inddecoreinteriors1 ">
+                    <center>
+                      <BiLogoFacebook className="text-[25px] text-white" />
+                    </center>
+                  </a>
                 </li>
                 <li className="w-10 h-10 pt-[8px]  bg-red-500 text-white rounded-full">
-                  <center>
-                    <AiOutlineTwitter className="text-[25px]" />
-                  </center>
+                  <a href="t:+919633461561">
+                    {" "}
+                    <center>
+                      <FaPhoneAlt className="text-[25px]" />
+                    </center>
+                  </a>
                 </li>
                 <li className="w-10 h-10 pt-[8px] bg-red-500 text-white rounded-full">
-                  <center>
-                    <AiOutlineInstagram className="text-[25px]" />
-                  </center>
+                  <a href="https://www.instagram.com/inddecore_interiors/">
+                    {" "}
+                    <center>
+                      <AiOutlineInstagram className="text-[25px]" />
+                    </center>
+                  </a>
                 </li>
               </ul>
             </div>
