@@ -9,7 +9,7 @@ const SendEmailForm = () => {
   const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
-  const emailAddress = "anandhamcatering@gmail.com"; // Replace with the recipient's email address
+  const emailAddress = "info.idinterio@gmail.com"; // Replace with the recipient's email address
   const subject = "New message from your website Anandtham"; // Change the email subject as needed
 
   useEffect(() => {
